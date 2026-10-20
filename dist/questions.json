@@ -1,0 +1,2926 @@
+[
+  {
+    "id": "1-1",
+    "number": 1,
+    "section": 1,
+    "question": "Which component of the CIA Triad (Confidentiality, Integrity, Availability) ensures that data remains private, secret, and accessible only to authorized users?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "1",
+        "text": "Integrity"
+      },
+      {
+        "id": "2",
+        "text": "Availability"
+      },
+      {
+        "id": "3",
+        "text": "Authenticity"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Confidentiality защищает информацию от раскрытия посторонним. Integrity отвечает за изменения, Availability — за доступность.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          2
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 2,
+        "text": "What is Mobile Security?\nMobile security is the protection of mobile devices, applications, data, and communication from unauthorized access, attacks, and data loss.\nMobile security includes:\nSmartphones and tablets\nMobile operating systems\nMobile applications\nPersonal and corporate data\nWireless communication\nCloud services and APIs\nSimple example\nWhen you use a banking application on your smartphone, mobile security protects:\nYour phone → Your application → Your personal data → Your communication with the bank\nThe main goal is to protect:\nConfidentiality + Integrity + Availability\nThese three principles are known as the CIA Triad."
+      }
+    ]
+  },
+  {
+    "id": "1-2",
+    "number": 2,
+    "section": 1,
+    "question": "What is the primary target (attack vector) when an attacker sends a fake SMS message mimicking a bank with a link to a fraudulent login portal?",
+    "options": [
+      {
+        "id": "0",
+        "text": "The user, through SMS phishing (smishing)"
+      },
+      {
+        "id": "1",
+        "text": "The Linux kernel, through a root exploit"
+      },
+      {
+        "id": "2",
+        "text": "The battery, through physical damage"
+      },
+      {
+        "id": "3",
+        "text": "The database, through SQL injection"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Цель — пользователь: его обманом заставляют открыть поддельный сайт. SMS — канал доставки. Вопрос смешивает цель атаки и attack vector.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          5,
+          6
+        ]
+      }
+    ],
+    "note": "Цель — User; способ — SMS phishing / smishing. Исходный вопрос объединяет эти понятия.",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 5,
+        "text": "What is a Mobile Attack?\nA mobile attack is an attempt to gain unauthorized access to a mobile device, application, account, data, or communication.\nMain targets\n1. Device:\nLost or stolen smartphone\n2. Application:\nVulnerable Android application\n3. User:\nPhishing message\n4. Network:\nInsecure Wi-Fi\n5. Backend / API:\nVulnerable mobile API"
+      },
+      {
+        "file": "lecture1.pptx",
+        "slide": 6,
+        "text": "Common Mobile Attacks\n1. Phishing\nThe attacker sends a fake message or website to steal information.\n\nExample:\n\"Your bank account is blocked. Click here to verify your account.\"\nThe link leads to a fake website.\n2. Malware\nMalicious software can be installed on a mobile device.\nIt may:\nsteal information;\nmonitor activity;\ndisplay unwanted content;\ncommunicate with an attacker."
+      }
+    ]
+  },
+  {
+    "id": "1-3",
+    "number": 3,
+    "section": 1,
+    "question": "Which security layer encompasses screen locks, full-disk encryption, Secure Boot, and regular operating system updates?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Device security"
+      },
+      {
+        "id": "1",
+        "text": "User awareness"
+      },
+      {
+        "id": "2",
+        "text": "Backend security"
+      },
+      {
+        "id": "3",
+        "text": "Application business logic"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Блокировка, шифрование, Secure Boot и обновления относятся к уровню устройства.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          9
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 9,
+        "text": "How Do We Prevent Mobile Attacks?\nLayer 1 — User\nStrong passwords\nMulti-factor authentication\nSecurity awareness\nDo not open suspicious links\nLayer 2 — Device\nScreen lock\nEncryption\nSecure boot\nRegular updates\nLayer 3 — Application\nSecure authentication\nInput validation\nSecure data storage\nSecure coding\nMinimum necessary permissions\nLayer 4 — Network\nHTTPS/TLS\nSecure Wi-Fi\nCertificate validation\nNetwork monitoring\nLayer 5 — Backend\nSecure APIs\nAuthentication\nAuthorization\nLogging and monitoring"
+      }
+    ]
+  },
+  {
+    "id": "1-4",
+    "number": 4,
+    "section": 1,
+    "question": "What is the primary focus of the OWASP MASVS (Mobile Application Security Verification Standard)?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Security requirements and controls for mobile applications"
+      },
+      {
+        "id": "1",
+        "text": "Enterprise mobile-device inventory only"
+      },
+      {
+        "id": "2",
+        "text": "A programming language for Android"
+      },
+      {
+        "id": "3",
+        "text": "A tool that automatically removes malware"
+      }
+    ],
+    "correct": "0",
+    "explanation": "MASVS описывает требования и меры защиты мобильных приложений. MASTG описывает их проверку.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          11
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 11,
+        "text": "Security Standards and Frameworks\nOWASP — Open Worldwide Application Security Project\nOWASP provides security standards, testing methodologies, and guidance for application security.\nFor mobile security, two important resources are:\nOWASP MASVS\nMobile Application Security Verification Standard\nIt describes security requirements and controls for mobile applications.\nOWASP MASTG\nMobile Application Security Testing Guide\nIt explains how to test mobile applications and verify security controls.\nThese resources will be very important during our practical laboratories"
+      }
+    ]
+  },
+  {
+    "id": "1-5",
+    "number": 5,
+    "section": 1,
+    "question": "Which NIST publication provides guidelines for managing and securing mobile devices within an enterprise environment?",
+    "options": [
+      {
+        "id": "0",
+        "text": "NIST SP 800-124"
+      },
+      {
+        "id": "1",
+        "text": "NIST SP 800-53 only"
+      },
+      {
+        "id": "2",
+        "text": "ISO 9001"
+      },
+      {
+        "id": "3",
+        "text": "OWASP Top 10 only"
+      }
+    ],
+    "correct": "0",
+    "explanation": "В лекции указан NIST SP 800-124: Guidelines for Managing the Security of Mobile Devices in the Enterprise.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          12
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 12,
+        "text": "Other Important Guidelines\nNIST\nNational Institute of Standards and Technology\nNIST provides cybersecurity standards and guidelines.\nFor mobile security, an important document is:\nNIST SP 800-124\n\"Guidelines for Managing the Security of Mobile Devices in the Enterprise\"\nIt provides guidance on managing and securing mobile devices in organizations."
+      }
+    ]
+  },
+  {
+    "id": "1-6",
+    "number": 6,
+    "section": 1,
+    "question": "Why do mobile operating systems and devices present a uniquely complex threat landscape compared to traditional desktop computers?",
+    "options": [
+      {
+        "id": "0",
+        "text": "They combine persistent connectivity, sensitive personal data, sensors, and physical mobility"
+      },
+      {
+        "id": "1",
+        "text": "They never connect to untrusted networks"
+      },
+      {
+        "id": "2",
+        "text": "They have no operating-system security boundaries"
+      },
+      {
+        "id": "3",
+        "text": "They cannot run third-party applications"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Смартфон объединяет компьютер, камеру, микрофон, GPS, сеть и личные данные. Постоянная связь и мобильность расширяют поверхность атаки.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          2
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 2,
+        "text": "Why Is Mobile OS Security Special?\nA smartphone combines:\nComputer + Camera + Microphone + GPS + Sensors + Network + Personal Data\nMobile devices are:\nAlways connected \nHighly personal \nSensor-rich \nResource-constrained \nFrequently used for authentication and payments \nOne compromised application can potentially expose sensitive assets"
+      }
+    ]
+  },
+  {
+    "id": "1-7",
+    "number": 7,
+    "section": 1,
+    "question": "Which layer of security includes controls such as HTTPS/TLS encryption, Certificate Pinning, and secure Wi-Fi connections?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Network security"
+      },
+      {
+        "id": "1",
+        "text": "Physical device casing"
+      },
+      {
+        "id": "2",
+        "text": "User password policy only"
+      },
+      {
+        "id": "3",
+        "text": "Local database schema design"
+      }
+    ],
+    "correct": "0",
+    "explanation": "HTTPS/TLS и проверка сертификатов защищают сетевой обмен. Certificate pinning — более специальная проверка ожидаемого сертификата или ключа.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          9
+        ]
+      }
+    ],
+    "note": "В слайде указана certificate validation; pinning — уточнение из sample-вопроса.",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 9,
+        "text": "How Do We Prevent Mobile Attacks?\nLayer 1 — User\nStrong passwords\nMulti-factor authentication\nSecurity awareness\nDo not open suspicious links\nLayer 2 — Device\nScreen lock\nEncryption\nSecure boot\nRegular updates\nLayer 3 — Application\nSecure authentication\nInput validation\nSecure data storage\nSecure coding\nMinimum necessary permissions\nLayer 4 — Network\nHTTPS/TLS\nSecure Wi-Fi\nCertificate validation\nNetwork monitoring\nLayer 5 — Backend\nSecure APIs\nAuthentication\nAuthorization\nLogging and monitoring"
+      }
+    ]
+  },
+  {
+    "id": "1-9",
+    "number": 9,
+    "section": 1,
+    "question": "What role does the OWASP MASTG (Mobile Application Security Testing Guide) play in relation to MASVS?",
+    "options": [
+      {
+        "id": "0",
+        "text": "It provides testing methods to verify mobile security controls and MASVS requirements"
+      },
+      {
+        "id": "1",
+        "text": "It replaces all MASVS security requirements"
+      },
+      {
+        "id": "2",
+        "text": "It manages enterprise phone purchases"
+      },
+      {
+        "id": "3",
+        "text": "It is an Android permission manager"
+      }
+    ],
+    "correct": "0",
+    "explanation": "MASVS задаёт, что должно быть защищено; MASTG объясняет, как это проверять.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          11
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 11,
+        "text": "Security Standards and Frameworks\nOWASP — Open Worldwide Application Security Project\nOWASP provides security standards, testing methodologies, and guidance for application security.\nFor mobile security, two important resources are:\nOWASP MASVS\nMobile Application Security Verification Standard\nIt describes security requirements and controls for mobile applications.\nOWASP MASTG\nMobile Application Security Testing Guide\nIt explains how to test mobile applications and verify security controls.\nThese resources will be very important during our practical laboratories"
+      }
+    ]
+  },
+  {
+    "id": "1-10",
+    "number": 10,
+    "section": 1,
+    "question": "Which of the following is considered a recommended baseline security practice for users maintaining mobile device security?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Keep the OS updated, use strong authentication, and install apps from trusted sources"
+      },
+      {
+        "id": "1",
+        "text": "Disable screen locks for convenience"
+      },
+      {
+        "id": "2",
+        "text": "Grant every permission automatically"
+      },
+      {
+        "id": "3",
+        "text": "Open unsolicited links to verify accounts"
+      }
+    ],
+    "correct": "0",
+    "explanation": "В лекции рекомендуются обновления, надёжная аутентификация, проверка разрешений, доверенные приложения и осторожность со ссылками.",
+    "sources": [
+      {
+        "file": "lecture1.pptx",
+        "slides": [
+          10
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture1.pptx",
+        "slide": 10,
+        "text": "Basic Security Practices\nFor users\n1. Keep the device updated\nInstall security updates and operating system updates.\n2. Use strong authentication\nUse a strong password/PIN and, where appropriate, multi-factor authentication.\n3. Install applications carefully\nUse trusted sources and avoid unknown applications.\n4. Check permissions\nAsk yourself:\n\"Why does this application need this permission?\"\n5. Be careful with links\nDo not open suspicious links or attachments.\n6. Use secure networks\nAvoid sending sensitive information over insecure networks."
+      }
+    ]
+  },
+  {
+    "id": "2-1",
+    "number": 1,
+    "section": 2,
+    "question": "What is the primary security goal of the \"Principle of Least Privilege\" in mobile operating systems?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Give each component only the privileges it needs"
+      },
+      {
+        "id": "1",
+        "text": "Give every app root access"
+      },
+      {
+        "id": "2",
+        "text": "Remove all access controls after login"
+      },
+      {
+        "id": "3",
+        "text": "Share all app data by default"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Least Privilege ограничивает права реальной необходимостью и уменьшает поверхность атаки.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          4
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 4,
+        "text": "Principle of Least Privilege\nGive each component only the privileges it needs.\nExample\nCalculator App:\n✓ CPU / Memory✓ Local application storage✗ Contacts✗ Microphone✗ SMS✗ Location\nLess privilege → Smaller attack surface"
+      }
+    ]
+  },
+  {
+    "id": "2-2",
+    "number": 2,
+    "section": 2,
+    "question": "Which of the following best defines \"Defense in Depth\"?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Use multiple independent or complementary security layers"
+      },
+      {
+        "id": "1",
+        "text": "Rely on a single strong password only"
+      },
+      {
+        "id": "2",
+        "text": "Encrypt the display brightness settings"
+      },
+      {
+        "id": "3",
+        "text": "Allow all traffic behind a firewall"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Несколько слоёв защиты сдерживают компрометацию, даже если один механизм не сработал.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          5
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 5,
+        "text": "Defense in Depth\nMobile security uses multiple layers:\nHardware↓Boot↓Kernel↓System Services↓Sandbox↓Permissions↓Application↓Data / Network\nSecurity does not depend on one mechanism.\nDefinition:A security strategy that uses multiple independent or complementary layers of protection so that the failure of one control does not compromise the entire system."
+      }
+    ]
+  },
+  {
+    "id": "2-3",
+    "number": 3,
+    "section": 2,
+    "question": "In the Android security architecture, what is the purpose of the \"Application Sandbox\"?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Isolate apps and their private data from other apps"
+      },
+      {
+        "id": "1",
+        "text": "Allow unrestricted access to all application files"
+      },
+      {
+        "id": "2",
+        "text": "Replace all authentication on the server"
+      },
+      {
+        "id": "3",
+        "text": "Run every app with the same unrestricted identity"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Sandbox разделяет приложения, процессы и данные. Это ограничивает межприложенные атаки.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          9,
+          10
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 9,
+        "text": "Application Sandbox\nEach application is isolated from other applications.\nApp A\n🔒 Private data\nApp B\n🔒 Private data\nApp C\n🔒 Private data\nIsolation helps prevent:\nUnauthorized data access \nProcess interference \nCredential theft \nCross-application attacks"
+      },
+      {
+        "file": "lecture 2.pptx",
+        "slide": 10,
+        "text": "Application Identity\nAndroid associates applications with distinct identities.\nApplication↓UID↓Process↓Files / Resources\nThis supports:\nIsolation \nFile ownership \nAccess control \nProcess separation"
+      }
+    ]
+  },
+  {
+    "id": "2-4",
+    "number": 4,
+    "section": 2,
+    "question": "What is the primary Inter-Process Communication (IPC) mechanism used in Android?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Binder"
+      },
+      {
+        "id": "1",
+        "text": "HTTP cookies"
+      },
+      {
+        "id": "2",
+        "text": "DNS"
+      },
+      {
+        "id": "3",
+        "text": "SMTP"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Binder — основной IPC-механизм Android. Intents, Content Providers и AIDL также участвуют в межпроцессном взаимодействии.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          13
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 13,
+        "text": "Inter-Process Communication (IPC) is a mechanism that allows separate processes or applications to exchange data and request services from each other.\nWhy is IPC needed?\nAndroid applications often run in separate processes for isolation and security, but they still need to communicate.\nExample:App A → IPC request → Android Service → Response → App A\nCommon Android IPC mechanisms\nBinder — primary Android IPC mechanism\nIntents — communication between Android components\nContent Providers — controlled data sharing\nAIDL — defines interfaces for communication with remote services"
+      }
+    ]
+  },
+  {
+    "id": "2-5",
+    "number": 5,
+    "section": 2,
+    "question": "Which of the following is NOT one of the four main application components in Android mentioned?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Fragment"
+      },
+      {
+        "id": "1",
+        "text": "Activity"
+      },
+      {
+        "id": "2",
+        "text": "Service"
+      },
+      {
+        "id": "3",
+        "text": "Content Provider"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Четыре основных компонента: Activity, Service, Broadcast Receiver, Content Provider. Fragment не входит в эту четвёрку.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          14
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 14,
+        "text": "Main Application Components\nActivityUser interface and interaction\nServiceBackground operations\n\nBroadcast ReceiverReceives events\nContent ProviderShares structured data\nSecurity question:\nWho can access this component?"
+      }
+    ]
+  },
+  {
+    "id": "2-6",
+    "number": 6,
+    "section": 2,
+    "question": "What is the function of SELinux (Security-Enhanced Linux) in Android?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Enforce Mandatory Access Control policies on processes and resources"
+      },
+      {
+        "id": "1",
+        "text": "Provide a user-interface layout system"
+      },
+      {
+        "id": "2",
+        "text": "Store all passwords in plaintext"
+      },
+      {
+        "id": "3",
+        "text": "Replace Android Runtime with a browser"
+      }
+    ],
+    "correct": "0",
+    "explanation": "SELinux реализует Mandatory Access Control и ограничивает процессы, файлы и взаимодействия сверх обычных разрешений.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          21
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 21,
+        "text": "SELinux\nSecurity-Enhanced Linux\nProvides Mandatory Access Control (MAC).\nSELinux policies can restrict:\nProcesses \nFiles \nSystem resources \nInteractions between components \nPurpose:Enforce security rules even when traditional permissions are not sufficient."
+      }
+    ]
+  },
+  {
+    "id": "2-7",
+    "number": 7,
+    "section": 2,
+    "question": "What is the key principle behind the Android Keystore system?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Protect cryptographic keys and allow controlled key use"
+      },
+      {
+        "id": "1",
+        "text": "Store every application file without encryption"
+      },
+      {
+        "id": "2",
+        "text": "Make all private keys publicly exportable"
+      },
+      {
+        "id": "3",
+        "text": "Replace HTTPS certificates with passwords"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Главное — защитить сам ключ, а не только зашифрованные данные. Аппаратная реализация может дополнительно ограничивать извлечение ключей.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          19
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 19,
+        "text": "Android Keystore\nDesigned to provide protected use of cryptographic keys.\nApplications can use keys for:\nEncryption \nDecryption \nSigning \nAuthentication \nKey principle:\nProtect the key, not only the encrypted data.\nHardware-backed implementations may provide additional protection."
+      }
+    ]
+  },
+  {
+    "id": "2-8",
+    "number": 8,
+    "section": 2,
+    "question": "What role does a \"Trusted Execution Environment (TEE)\" play in mobile security?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Isolate security-sensitive operations and secrets in a protected environment"
+      },
+      {
+        "id": "1",
+        "text": "Run advertising code with unrestricted privileges"
+      },
+      {
+        "id": "2",
+        "text": "Provide an ordinary shared Downloads folder"
+      },
+      {
+        "id": "3",
+        "text": "Disable verification during boot"
+      }
+    ],
+    "correct": "0",
+    "explanation": "TEE отделяет чувствительные операции от обычной среды ОС и приложений и поддерживает аппаратную защиту.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          20
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 20,
+        "text": "Trusted Execution Environment (TEE)\nA protected environment for security-sensitive operations.\nNormal Environment\nApplications / Android OS\n↕\nTrusted Environment\nSecurity-sensitive operations\nPurpose:\nProtect secrets \nIsolate sensitive operations \nSupport hardware-backed security"
+      }
+    ]
+  },
+  {
+    "id": "2-9",
+    "number": 9,
+    "section": 2,
+    "question": "During a mobile application security assessment, what does Static Analysis typically involve?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Inspect code, resources, and configuration without running the app"
+      },
+      {
+        "id": "1",
+        "text": "Observe only live network traffic while the app runs"
+      },
+      {
+        "id": "2",
+        "text": "Measure only screen brightness"
+      },
+      {
+        "id": "3",
+        "text": "Send push notifications to users"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Static Analysis изучает исходный или декомпилированный код и конфигурацию без выполнения приложения. В лекции перечислены инструменты; определение уточнено по OWASP.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          27
+        ]
+      }
+    ],
+    "note": "Определение дополнено по OWASP; слайд 27 перечисляет инструменты.",
+    "external": "https://mas.owasp.org/MASTG/0x04b-Mobile-App-Security-Testing/",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 27,
+        "text": "From Architecture to Security Testing\nSecurity Area\nTool\nDevice interaction\nADB\nStatic analysis\nMobSF\nDecompiled code\nJADX\nDynamic instrumentation\nFrida\nNetwork traffic\nWireshark\nAPI testing\nBurp Suite\nDevelopment\nAndroid Studio\nTheory → Observation → Analysis → Testing"
+      }
+    ]
+  },
+  {
+    "id": "2-10",
+    "number": 10,
+    "section": 2,
+    "question": "What is the objective of \"Verified Boot\" (or Secure Boot) in the mobile security model?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Detect or prevent unauthorized changes to trusted boot and system software"
+      },
+      {
+        "id": "1",
+        "text": "Automatically grant apps all permissions"
+      },
+      {
+        "id": "2",
+        "text": "Encrypt every network packet without TLS"
+      },
+      {
+        "id": "3",
+        "text": "Remove the need for operating-system updates"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Verified Boot проверяет цепочку доверия от Root of Trust до системных компонентов и ОС.",
+    "sources": [
+      {
+        "file": "lecture 2.pptx",
+        "slides": [
+          16,
+          17
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 2.pptx",
+        "slide": 16,
+        "text": "Secure Boot / Verified Boot\nProtects the device before the OS starts.\nRoot of Trust↓Bootloader↓System Components↓Android OS\nGoal:\nDetect or prevent unauthorized modification of trusted software."
+      },
+      {
+        "file": "lecture 2.pptx",
+        "slide": 17,
+        "text": "Root of Trust\nA small, trusted foundation used to establish trust for higher-level components.\nHardware / Immutable Code↓Verified Boot Components↓Operating System↓Applications\nIf trust at the foundation is broken, higher layers may be affected."
+      }
+    ]
+  },
+  {
+    "id": "3-1",
+    "number": 1,
+    "section": 3,
+    "question": "What is the definition of a \"Mobile Threat\" according to Lecture 3?",
+    "options": [
+      {
+        "id": "0",
+        "text": "A potential danger to a mobile device, app, data, network, or privacy"
+      },
+      {
+        "id": "1",
+        "text": "Only an attack that has already succeeded"
+      },
+      {
+        "id": "2",
+        "text": "A guaranteed hardware defect"
+      },
+      {
+        "id": "3",
+        "text": "A security update installed by the user"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Threat — потенциальная опасность, а не обязательно уже совершённая атака.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          2
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 2,
+        "text": "Mobile Threat\nA potential danger to:\nMobile device \nApplication \nUser data \nNetwork \nUser privacy\nWhat Is a Mobile Threat?\nCommon goals\nData theft \nUnauthorized access \nSurveillance \nFraud \nService disruption \nThreat = potential danger\nA threat is something that can potentially cause harm to our system."
+      }
+    ]
+  },
+  {
+    "id": "3-2",
+    "number": 2,
+    "section": 3,
+    "question": "What is the primary motivation for Nation-State threat actors according to the Cyber Threat Actor classification?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Espionage and strategic or geopolitical objectives"
+      },
+      {
+        "id": "1",
+        "text": "Only displaying commercial advertisements"
+      },
+      {
+        "id": "2",
+        "text": "Only improving app usability"
+      },
+      {
+        "id": "3",
+        "text": "Only earning points in a legal training game"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Для nation-state actors типичны шпионаж и государственные стратегические цели. В слайде перечислены общие мотивации, но отдельной классификации nation-state нет; это уточнение по CISA.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          3
+        ]
+      }
+    ],
+    "note": "В лекции нет отдельной классификации Nation-State. Ответ уточнён по CISA; формулировку преподавателя стоит сверить.",
+    "external": "https://www.cisa.gov/news-events/alerts/2024/09/05/fbi-cisa-nsa-and-us-and-international-partners-release-advisory-russian-military-cyber-actors",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 3,
+        "text": "Threat Actor\nThreat Actor\nAn individual or group that performs or supports an attack.\nExamples\nCybercriminal \nAttacker \nInsider \nMalicious developer \nOrganized group\nPossible motivation\nMoney • Data • Access • Espionage • Disruption"
+      }
+    ]
+  },
+  {
+    "id": "3-3",
+    "number": 3,
+    "section": 3,
+    "question": "What does the term \"Attack Surface\" refer to in mobile security?",
+    "options": [
+      {
+        "id": "0",
+        "text": "All exposed points through which a mobile system can be attacked"
+      },
+      {
+        "id": "1",
+        "text": "Only the physical size of the touchscreen"
+      },
+      {
+        "id": "2",
+        "text": "Only a list of existing antivirus products"
+      },
+      {
+        "id": "3",
+        "text": "Only the encryption key length"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Attack Surface охватывает потенциальные точки атаки: устройство, приложение, сеть и пользователя.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          4
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 4,
+        "text": "Mobile Attack Surface\nDevice\nBluetooth • USB • Sensors • Storage\n\nApplication\nPermissions • APIs • Local data\n\nNetwork\nWi-Fi • Mobile network • Internet\n\nUser\nLinks • Messages • Social engineering\nAttack Surface = all possible points that can be attacked"
+      }
+    ]
+  },
+  {
+    "id": "3-4",
+    "number": 4,
+    "section": 3,
+    "question": "Which definition best describes an \"Attack Vector\"?",
+    "options": [
+      {
+        "id": "0",
+        "text": "A path or method used by an attacker to reach a target"
+      },
+      {
+        "id": "1",
+        "text": "The final financial loss after an attack"
+      },
+      {
+        "id": "2",
+        "text": "A list of all possible attack points"
+      },
+      {
+        "id": "3",
+        "text": "The identity of the system owner"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Vector — конкретный путь или способ атаки. Surface — совокупность возможных точек входа.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          5
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 5,
+        "text": "What Is an Attack Vector?\nAttack Vector\nA path or method used by an attacker to reach a target.\nCommon attack vectors\nMalicious applications \nPhishing \nSocial engineering \nVulnerable APIs \nInsecure networks \nPhysical access \nSoftware vulnerabilities\nSimple model\nAttacker → Attack Vector → Target"
+      }
+    ]
+  },
+  {
+    "id": "3-5",
+    "number": 5,
+    "section": 3,
+    "question": "Which type of mobile malware specifically appears legitimate while secretly performing malicious actions?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Trojan"
+      },
+      {
+        "id": "1",
+        "text": "Ransomware"
+      },
+      {
+        "id": "2",
+        "text": "Spyware"
+      },
+      {
+        "id": "3",
+        "text": "A legitimate security patch"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Trojan выглядит легитимным, но скрытно выполняет вредоносные действия. Spyware собирает данные, ransomware блокирует или шифрует их.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          6
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 6,
+        "text": "Mobile Malware\nMalware = Malicious Software\nCommon types\nTrojanLooks legitimate but performs malicious actions.\nSpywareCollects information about the user.\nRansomwareBlocks or encrypts data.\nBanking MalwareTargets financial information"
+      }
+    ]
+  },
+  {
+    "id": "3-6",
+    "number": 6,
+    "section": 3,
+    "question": "What type of social engineering attack relies on voice calls to deceive users?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Vishing (voice phishing)"
+      },
+      {
+        "id": "1",
+        "text": "Smishing (SMS phishing)"
+      },
+      {
+        "id": "2",
+        "text": "SQL injection"
+      },
+      {
+        "id": "3",
+        "text": "Bluetooth pairing"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Vishing — фишинг через голосовые звонки. В лекции разобрана социальная инженерия в целом; название уточнено по CISA.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          7
+        ]
+      }
+    ],
+    "note": "Термин Vishing уточнён по CISA; в лекции приведено общее описание социальной инженерии.",
+    "external": "https://www.cisa.gov/sites/default/files/2024-02/Update%20to%20Phishing%20General%20Security%20Postcard_01.01.2024.pdf",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 7,
+        "text": "Phishing and Social Engineering\nPhishing\nFake message↓Malicious link↓Fake website↓User enters information↓Information is stolen\nSocial Engineering\nManipulating a person to perform an action\nExamples\nFake bank message \nFake delivery message \nFake support request \nFake login page"
+      }
+    ]
+  },
+  {
+    "id": "3-7",
+    "number": 7,
+    "section": 3,
+    "question": "What security principle dictates that an application should only be granted permissions necessary for its intended functionality?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Principle of Least Privilege"
+      },
+      {
+        "id": "1",
+        "text": "Security through obscurity only"
+      },
+      {
+        "id": "2",
+        "text": "Unlimited delegation"
+      },
+      {
+        "id": "3",
+        "text": "Default root access"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Приложение должно получать только разрешения, необходимые для своей функции.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          9
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 9,
+        "text": "Permissions and Insecure Storage\nAndroid Permissions\nCamera \nMicrophone \nLocation \nContacts \nFiles\nPrinciple of Least Privilege\nGive only the permissions that are necessary.\nInsecure Storage\nSensitive data may include:\nPasswords \nTokens \nPersonal information \nCryptographic keys"
+      }
+    ]
+  },
+  {
+    "id": "3-8",
+    "number": 8,
+    "section": 3,
+    "question": "What is the correct logical progression of a security breach from weakness to harm?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Vulnerability → Exploit → Attack → Impact"
+      },
+      {
+        "id": "1",
+        "text": "Impact → Patch → Authentication → Permission"
+      },
+      {
+        "id": "2",
+        "text": "Attack → Availability → Encryption → Backup"
+      },
+      {
+        "id": "3",
+        "text": "Exploit → Integrity → Sandbox → Policy"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Уязвимость — слабость; exploit использует её; attack — несанкционированное действие; impact — причинённый вред.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          10
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 10,
+        "text": "Vulnerability, Exploit, Attack\nVulnerability\nA weakness in a system.\n↓\nExploit\nA method used to take advantage of the weakness.\n↓\nAttack\nAn unauthorized action.\n↓\nImpact\nData theft • Account compromise • Privacy loss • Financial loss"
+      }
+    ]
+  },
+  {
+    "id": "3-9",
+    "number": 9,
+    "section": 3,
+    "question": "Which fundamental CIA security pillar ensures that data and application resources are not modified without authorization?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Integrity"
+      },
+      {
+        "id": "1",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "2",
+        "text": "Availability"
+      },
+      {
+        "id": "3",
+        "text": "Usability"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Integrity означает защиту от несанкционированного изменения данных и ресурсов.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          12
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 12,
+        "text": "Mobile Application Security Fundamentals\nSecurity Fundamentals\nConfidentiality\nPrevent unauthorized access to information.\nIntegrity\nPrevent unauthorized modification.\nAvailability\nKeep the application and services accessible.\nAuthentication\nVerify who the user is.\nAuthorization\nDetermine what the user can access."
+      }
+    ]
+  },
+  {
+    "id": "3-10",
+    "number": 10,
+    "section": 3,
+    "question": "What is the main distinction between Authentication and Authorization?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Authentication verifies identity; authorization determines allowed actions"
+      },
+      {
+        "id": "1",
+        "text": "Authentication encrypts data; authorization compresses it"
+      },
+      {
+        "id": "2",
+        "text": "Authentication assigns screen resolution; authorization selects language"
+      },
+      {
+        "id": "3",
+        "text": "Authentication and authorization always mean the same thing"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Authentication отвечает «кто ты?», Authorization — «что тебе разрешено?».",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          12
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 12,
+        "text": "Mobile Application Security Fundamentals\nSecurity Fundamentals\nConfidentiality\nPrevent unauthorized access to information.\nIntegrity\nPrevent unauthorized modification.\nAvailability\nKeep the application and services accessible.\nAuthentication\nVerify who the user is.\nAuthorization\nDetermine what the user can access."
+      }
+    ]
+  },
+  {
+    "id": "3-11",
+    "number": 11,
+    "section": 3,
+    "question": "In mobile application security modeling, how is an \"Agent\" defined?",
+    "options": [
+      {
+        "id": "0",
+        "text": "An entity capable of performing actions"
+      },
+      {
+        "id": "1",
+        "text": "Only a hardware encryption chip"
+      },
+      {
+        "id": "2",
+        "text": "Only a database table"
+      },
+      {
+        "id": "3",
+        "text": "A fixed-size hash value"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Agent может быть пользователем, приложением, сервером или атакующим. Модель: Agent → Action → Resource.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          13
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 13,
+        "text": "Security Actors and Agents\nAgent\nAn entity that can perform actions.\nExamples in mobile security\nUser→ opens the application\nApplication→ requests permissions\nServer→ processes requests\nAttacker→ attempts unauthorized actions\nSimple model\nAgent → Action → Resource"
+      }
+    ]
+  },
+  {
+    "id": "3-12",
+    "number": 12,
+    "section": 3,
+    "question": "What is an \"Ontology\" in the context of computer science and security knowledge representation?",
+    "options": [
+      {
+        "id": "0",
+        "text": "A structured, formal representation of domain concepts, properties, relationships, and rules"
+      },
+      {
+        "id": "1",
+        "text": "A collection of unstructured screenshots only"
+      },
+      {
+        "id": "2",
+        "text": "A mobile operating-system kernel"
+      },
+      {
+        "id": "3",
+        "text": "A network encryption protocol"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Онтология формализует знания предметной области, включая понятия, свойства, связи и правила.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          14
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 14,
+        "text": "What Is an Ontology?\nOntology\nA structured representation of knowledge about a specific domain.\nAn ontology describes:\nConcepts \nProperties \nRelationships \nRules\nMobile Security Example\nUser↓ usesApplication↓ requestsPermission↓ protectsResource"
+      }
+    ]
+  },
+  {
+    "id": "3-13",
+    "number": 13,
+    "section": 3,
+    "question": "Which ontology component represents real-world specific objects such as App_01 or Android_Device_01?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Individuals (instances)"
+      },
+      {
+        "id": "1",
+        "text": "Classes"
+      },
+      {
+        "id": "2",
+        "text": "Properties"
+      },
+      {
+        "id": "3",
+        "text": "Encryption algorithms"
+      }
+    ],
+    "correct": "0",
+    "explanation": "App_01 и Android_Device_01 — конкретные экземпляры. Class — категория объектов.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          15
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 15,
+        "text": "Main Ontology Components\nClasses\nGeneral concepts\nUser, Application, Device, Threat\nIndividuals\nSpecific objects\nUser_A, App_01, Android_Device_01\nProperties\nRelationships or characteristics\nuses, requests, targets, hasPermission\nRules\nLogical conditions and relationships\nOntology Components"
+      }
+    ]
+  },
+  {
+    "id": "3-14",
+    "number": 14,
+    "section": 3,
+    "question": "In an ontology, what component describes relationships or characteristics (e.g., uses, requests, hasPermission)?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Properties"
+      },
+      {
+        "id": "1",
+        "text": "Individuals"
+      },
+      {
+        "id": "2",
+        "text": "Operating systems"
+      },
+      {
+        "id": "3",
+        "text": "Attack impacts"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Properties описывают отношения и характеристики, например uses, requests и hasPermission.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          15
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 15,
+        "text": "Main Ontology Components\nClasses\nGeneral concepts\nUser, Application, Device, Threat\nIndividuals\nSpecific objects\nUser_A, App_01, Android_Device_01\nProperties\nRelationships or characteristics\nuses, requests, targets, hasPermission\nRules\nLogical conditions and relationships\nOntology Components"
+      }
+    ]
+  },
+  {
+    "id": "3-15",
+    "number": 15,
+    "section": 3,
+    "question": "What role does Protégé play in security ontology development?",
+    "options": [
+      {
+        "id": "0",
+        "text": "An environment for creating and editing ontologies and running reasoners"
+      },
+      {
+        "id": "1",
+        "text": "An antivirus engine that blocks all attacks"
+      },
+      {
+        "id": "2",
+        "text": "An Android package installer"
+      },
+      {
+        "id": "3",
+        "text": "A cloud password manager"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Protégé позволяет создавать классы, экземпляры, свойства и ограничения, визуализировать знания и запускать reasoners.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          18
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 18,
+        "text": "What Is Protégé?\nProtégé\nAn ontology development tool.\nProtégé allows us to:\nCreate classes \nCreate individuals \nDefine properties \nBuild relationships \nAdd restrictions \nRun reasoners \nVisualize knowledge\nExample classes\nUserApplicationPermissionThreatDevice"
+      }
+    ]
+  },
+  {
+    "id": "3-16",
+    "number": 16,
+    "section": 3,
+    "question": "What is the function of a \"Reasoner\" when working with security ontologies?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Infer new knowledge and check logical consistency"
+      },
+      {
+        "id": "1",
+        "text": "Encrypt all device storage automatically"
+      },
+      {
+        "id": "2",
+        "text": "Replace the Android bootloader"
+      },
+      {
+        "id": "3",
+        "text": "Generate random user-interface colors"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Reasoner анализирует онтологию, выводит новые сведения и обнаруживает логические несогласованности.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          19
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 19,
+        "text": "From Ontology to Reasoning\nOntology\nConcepts + Relationships + Rules\n↓\nReasoner\nAnalyzes the knowledge\n↓\nResult\nLogical consistency \nNew relationships \nInferred information\nExample\nSmartphone\n→ has\nAndroid OS\n→ allows\nApplication\n→ requests\nPermission"
+      }
+    ]
+  },
+  {
+    "id": "3-17",
+    "number": 17,
+    "section": 3,
+    "question": "Which of the following is considered an API-level security attack vector?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Broken authorization in an API endpoint"
+      },
+      {
+        "id": "1",
+        "text": "A scratched phone screen"
+      },
+      {
+        "id": "2",
+        "text": "An empty phone battery"
+      },
+      {
+        "id": "3",
+        "text": "A disabled screen rotation setting"
+      }
+    ],
+    "correct": "0",
+    "explanation": "К API-атакам относятся broken authentication, broken authorization, excessive data exposure и insecure endpoints.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          8
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 8,
+        "text": "Network and API Attack Vectors\nNetwork Attacks\nUntrusted Wi-Fi \nTraffic interception \nMan-in-the-Middle \n\nAPI\nApplication Programming Interface\nAPI Attacks\nBroken authentication \nBroken authorization \nExcessive data exposure \nInsecure endpoints"
+      }
+    ]
+  },
+  {
+    "id": "3-19",
+    "number": 19,
+    "section": 3,
+    "question": "Why are ontologies beneficial for cybersecurity management?",
+    "options": [
+      {
+        "id": "0",
+        "text": "They organize and connect security knowledge, enable reuse, and support automated reasoning"
+      },
+      {
+        "id": "1",
+        "text": "They remove the need for all security testing"
+      },
+      {
+        "id": "2",
+        "text": "They guarantee that malware cannot run"
+      },
+      {
+        "id": "3",
+        "text": "They replace every access-control policy with a password"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Онтологии связывают понятия, помогают повторно использовать знания, выявлять противоречия и автоматизировать вывод.",
+    "sources": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slides": [
+          17
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 3-4.pptx",
+        "slide": 17,
+        "text": "Why Use Ontologies in Security?\nWhy Ontologies?\nThey help us:\nOrganize security knowledge \nDescribe relationships \nConnect different concepts \nDetect logical inconsistencies \nSupport automated reasoning \nReuse security knowledge\nExample\nApplication → requests → Permission\nPermission → provides access to → Resource"
+      }
+    ]
+  },
+  {
+    "id": "4-1",
+    "number": 1,
+    "section": 4,
+    "question": "What is the fundamental difference between Authentication and Authorization as described in the lecture?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Authentication verifies identity; authorization determines permissions"
+      },
+      {
+        "id": "1",
+        "text": "Authentication chooses permissions; authorization checks battery level"
+      },
+      {
+        "id": "2",
+        "text": "Authentication only applies to networks; authorization only to files"
+      },
+      {
+        "id": "3",
+        "text": "Both terms refer only to encryption"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Идентификация пользователя и проверка его разрешений — разные этапы контроля доступа.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          2
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 2,
+        "text": "Authentication vs. Authorization\nAuthentication\nWho are you?\nAuthentication verifies the identity of a user, device, or application.\nExamples:\nPassword \nPIN \nFingerprint \nFace recognition \nOne-time password \nDigital certificate\nAuthorization\nWhat are you allowed to do?\nAuthorization determines which resources or actions an authenticated entity can access.\nAuthentication → Identity\nAuthorization → Permissions"
+      }
+    ]
+  },
+  {
+    "id": "4-2",
+    "number": 2,
+    "section": 4,
+    "question": "Which of the following is an example of the \"Something you are\" authentication factor?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Fingerprint recognition"
+      },
+      {
+        "id": "1",
+        "text": "A password"
+      },
+      {
+        "id": "2",
+        "text": "A hardware security token"
+      },
+      {
+        "id": "3",
+        "text": "A PIN"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Something you are — биометрия: отпечаток, лицо, радужная оболочка. Пароль и PIN — something you know.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          4
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 4,
+        "text": "Authentication Factors\nAuthentication can use different types of evidence.\n1. Something you know\nPassword \nPIN \nSecurity answer \n2. Something you have\nSmartphone \nSecurity token \nSmart card \n3. Something you are\nFingerprint \nFace \nIris\n4. Somewhere you are\nLocation \nTrusted network \n5. Something you do\nBehavioral patterns \nTyping behavior"
+      }
+    ]
+  },
+  {
+    "id": "4-3",
+    "number": 3,
+    "section": 4,
+    "question": "Why does combining a Password and a PIN NOT count as Multi-Factor Authentication (MFA)?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Both belong to the same knowledge-factor category"
+      },
+      {
+        "id": "1",
+        "text": "A PIN can never be used for authentication"
+      },
+      {
+        "id": "2",
+        "text": "MFA requires two devices in every case"
+      },
+      {
+        "id": "3",
+        "text": "Passwords and PINs are both biometric factors"
+      }
+    ],
+    "correct": "0",
+    "explanation": "MFA требует независимых факторов разных категорий. Два секрета из категории knowledge не становятся MFA.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          5
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 5,
+        "text": "Multi-Factor Authentication\n\n\n\n\n\n\n\nMFA combines two or more independent factors.\nExample:\nPassword + Authenticator App\nor\nPassword + Fingerprint\nor\nSecurity Token + PIN\nImportant distinction\nTwo passwords ≠ MFA\nThe factors must belong to different categories.\nSecurity benefit:\nIf one factor is compromised, the attacker still needs another factor."
+      }
+    ]
+  },
+  {
+    "id": "4-4",
+    "number": 4,
+    "section": 4,
+    "question": "In access control terminology, what represents the entity requesting access to a resource?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Subject"
+      },
+      {
+        "id": "1",
+        "text": "Object"
+      },
+      {
+        "id": "2",
+        "text": "Action"
+      },
+      {
+        "id": "3",
+        "text": "Policy"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Subject запрашивает доступ; Object — защищаемый ресурс; Action — операция; Policy — правило доступа.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          7
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 7,
+        "text": "Access Control\nAccess control determines:\nWho can access what?\nUnder which conditions?\nWhich operations are allowed?\nAccess control components\nSubject→ entity requesting access\nObject→ resource being accessed\nAction→ operation performed\nPolicy→ rule determining whether access is allowed\nExample\nUser → Read → Medical Record"
+      }
+    ]
+  },
+  {
+    "id": "4-5",
+    "number": 5,
+    "section": 4,
+    "question": "Which Access Control Model makes access decisions dynamically based on user attributes, device attributes, and environmental conditions (e.g., location, time)?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Attribute-Based Access Control (ABAC)"
+      },
+      {
+        "id": "1",
+        "text": "Role-Based Access Control (RBAC) alone"
+      },
+      {
+        "id": "2",
+        "text": "Discretionary Access Control (DAC) alone"
+      },
+      {
+        "id": "3",
+        "text": "A fixed password-length policy"
+      }
+    ],
+    "correct": "0",
+    "explanation": "ABAC учитывает атрибуты пользователя, устройства, ресурса и среды, например время, сеть и местоположение.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          10
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 10,
+        "text": "Attribute-Based Access Control\nABAC uses attributes to make decisions.\nPossible attributes:\nUser\nRole \nDepartment \nSecurity level \nDevice\nDevice ID \nOS version \nSecurity status \nResource\nSensitivity \nType \nOwner \nEnvironment\nLocation \nTime \nNetwork\nExample policy:\nAllow access if the user is a doctor, the device is trusted, and the resource belongs to the user's department."
+      }
+    ]
+  },
+  {
+    "id": "4-6",
+    "number": 6,
+    "section": 4,
+    "question": "What is a limitation of Role-Based Access Control (RBAC) mentioned in the lecture?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Roles become difficult to manage as conditions grow more complex"
+      },
+      {
+        "id": "1",
+        "text": "RBAC cannot assign permissions to roles"
+      },
+      {
+        "id": "2",
+        "text": "RBAC always requires biometric authentication"
+      },
+      {
+        "id": "3",
+        "text": "RBAC cannot be used in organizations"
+      }
+    ],
+    "correct": "0",
+    "explanation": "В сложных контекстных условиях количество и управление ролями могут становиться неудобными.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          9
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 9,
+        "text": "Role-Based Access Control (RBAC)\nExample\nRoles\nAdministrator \nDeveloper \nUser \nGuest \nPermissions\nRead \nWrite \nDelete \nManage users\nExample:\nAdministrator → Read + Write + Delete\nUser → Read\nGuest → Limited Read\nAdvantages\nSimple management \nEasy to understand \nSuitable for organizations \nLimitation\nRoles may become difficult to manage when conditions become more complex."
+      }
+    ]
+  },
+  {
+    "id": "4-7",
+    "number": 7,
+    "section": 4,
+    "question": "What is the primary function of a \"Semantic Reasoner\" in semantic security systems?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Derive new knowledge and logical consequences from facts, relationships, and axioms"
+      },
+      {
+        "id": "1",
+        "text": "Translate Kotlin code directly into machine code"
+      },
+      {
+        "id": "2",
+        "text": "Store plaintext authentication tokens"
+      },
+      {
+        "id": "3",
+        "text": "Replace all user identities with random numbers"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Semantic Reasoner выводит следствия и проверяет согласованность. Пример: Student ⊑ UniversityMember, значит Alice:Student → Alice:UniversityMember.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          12
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 12,
+        "text": "What Is a Semantic Reasoner?\nSemantic reasoner\nA software component that derives new knowledge from existing knowledge and logical rules.\nInput:\nOntology \nFacts \nRelationships \nLogical axioms \nOutput:\nInferred knowledge \nConsistency information \nLogical consequences\nExample:\nStudent ⊑ UniversityMember\nAlice : Student\nTherefore:\nAlice : UniversityMember"
+      }
+    ]
+  },
+  {
+    "id": "4-8",
+    "number": 8,
+    "section": 4,
+    "question": "Which set of technologies forms the core foundation of the Semantic Web?",
+    "options": [
+      {
+        "id": "0",
+        "text": "RDF, RDFS, OWL, and SPARQL"
+      },
+      {
+        "id": "1",
+        "text": "HTML, CSS, JPEG, and MP3 only"
+      },
+      {
+        "id": "2",
+        "text": "TCP, USB, HDMI, and Bluetooth only"
+      },
+      {
+        "id": "3",
+        "text": "AES, RSA, SHA-256, and ChaCha20 only"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Semantic Web использует RDF/RDFS, OWL, SPARQL, онтологии и reasoners для машинно интерпретируемых знаний.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          16
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 16,
+        "text": "Semantic Web\nSemantic Web\nAn extension of the Web where information is represented in a form that machines can interpret and reason about.\n\nKey technologies\nRDF \nRDFS \nOWL \nSPARQL \nOntologies \nReasoners \nBasic idea:\nData + Meaning + Relationships + Logic"
+      }
+    ]
+  },
+  {
+    "id": "4-9",
+    "number": 9,
+    "section": 4,
+    "question": "How does Semantic Security enhance traditional rule-based access control on mobile platforms?",
+    "options": [
+      {
+        "id": "0",
+        "text": "It uses explicit knowledge, relationships, and reasoning to support context-aware decisions"
+      },
+      {
+        "id": "1",
+        "text": "It removes the need to check access rights"
+      },
+      {
+        "id": "2",
+        "text": "It allows every authenticated user to access everything"
+      },
+      {
+        "id": "3",
+        "text": "It relies only on the visual appearance of an app"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Семантическая безопасность представляет знания и отношения явно и выводит решения с учётом контекста и атрибутов.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          11,
+          15,
+          17
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 11,
+        "text": "From Rules to Knowledge\nTraditional access control:\nIF condition → THEN allow/deny\nSemantic security:\nRepresent security concepts and relationships as knowledge.\nExample knowledge:\nAlice is a student. \nStudents can access course materials. \nCourse materials belong to the university. \nAlice uses Device A. \nDevice A runs Android. \nDevice A is trusted. \nA reasoner can derive:\nAlice → allowed → Course Material"
+      },
+      {
+        "file": "lecture 5.pptx",
+        "slide": 15,
+        "text": "Semantic Reasoning Example\nKnowledge base\nAlice : Student\nStudent → allowedToAccess → CourseMaterial\nCourseMaterial : UniversityResource\nReasoning\nThe system derives:\nAlice → allowedToAccess → CourseMaterial\nMore complex example\nTrustedDevice ∧ AuthenticatedUser ∧ AuthorizedRole\n↓\nAccess Granted"
+      },
+      {
+        "file": "lecture 5.pptx",
+        "slide": 17,
+        "text": "Semantic Web for Mobile Platforms\nPossible applications\n1. Context-aware security\nLocation \nDevice state \nNetwork \n2. Intelligent access control\nUser attributes \nDevice attributes \nResource sensitivity \n3. Security knowledge bases\nThreats \nVulnerabilities \nPermissions \n4. Privacy management\nData categories \nUser preferences \nData-sharing policies"
+      }
+    ]
+  },
+  {
+    "id": "4-10",
+    "number": 10,
+    "section": 4,
+    "question": "In the context of Semantic Web technologies, what does SPARQL stand for / represent?",
+    "options": [
+      {
+        "id": "0",
+        "text": "SPARQL Protocol and RDF Query Language; a query language for RDF data"
+      },
+      {
+        "id": "1",
+        "text": "A mobile hardware encryption module"
+      },
+      {
+        "id": "2",
+        "text": "A mandatory Android permission"
+      },
+      {
+        "id": "3",
+        "text": "A replacement for the Linux kernel"
+      }
+    ],
+    "correct": "0",
+    "explanation": "SPARQL — язык запросов к RDF-данным. В лекции дано именно его назначение, а не расшифровка названия.",
+    "sources": [
+      {
+        "file": "lecture 5.pptx",
+        "slides": [
+          16,
+          19
+        ]
+      }
+    ],
+    "note": "В лекции SPARQL определён как язык запросов к RDF. Для теста достаточно знать назначение.",
+    "evidence": [
+      {
+        "file": "lecture 5.pptx",
+        "slide": 16,
+        "text": "Semantic Web\nSemantic Web\nAn extension of the Web where information is represented in a form that machines can interpret and reason about.\n\nKey technologies\nRDF \nRDFS \nOWL \nSPARQL \nOntologies \nReasoners \nBasic idea:\nData + Meaning + Relationships + Logic"
+      },
+      {
+        "file": "lecture 5.pptx",
+        "slide": 19,
+        "text": "Term\nMeaning\nAuthentication\nVerification of identity\nAuthorization\nDetermining permitted actions\nAccess Control\nProtection of resources through access policies\nSubject\nEntity requesting access\nObject\nProtected resource\nPermission\nGranted ability to perform an action\nPolicy\nRule that determines access\nRBAC\nRole-Based Access Control\nABAC\nAttribute-Based Access Control\nOntology\nFormal representation of concepts and relationships\nSemantic Web\nWeb technologies that represent machine-readable meaning\nReasoner\nSoftware that derives logical conclusions\nInference\nDeriving new knowledge from existing knowledge\nRDF\nResource Description Framework\nOWL\nWeb Ontology Language\nSPARQL\nQuery language for RDF data\nIndividual\nSpecific instance of a class\nClass\nConcept/category in an ontology\nProperty\nRelationship or attribute\nAxiom\nLogical statement/restriction in an ontology"
+      }
+    ]
+  },
+  {
+    "id": "5-1",
+    "number": 1,
+    "section": 5,
+    "question": "What are the three main data states highlighted in mobile security?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Data at rest, data in transit, and data in use"
+      },
+      {
+        "id": "1",
+        "text": "Public, private, and protected classes"
+      },
+      {
+        "id": "2",
+        "text": "Text, images, and video only"
+      },
+      {
+        "id": "3",
+        "text": "Passwords, PINs, and biometrics"
+      }
+    ],
+    "correct": "0",
+    "explanation": "At rest — хранение, in transit — передача, in use — обработка. Все три состояния явно перечислены в лекции 7.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          10
+        ]
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          6
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 10,
+        "text": "Data at Rest\nInformation stored on:\nDevice storage \nDatabase \nFiles \nCache \nBackups\nProtection:\nAccess control \nEncryption \nSecure key management \nMinimal data storage\nThreat:An attacker obtains the stored data without interacting with the application normally."
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 6,
+        "text": "Protecting Data in the Cloud\nData should be protected throughout its lifecycle\nData at rest\nDatabase \nCloud storage \nBackups \nData in transit\nHTTPS \nTLS \nSecure APIs \nData in use\nApplication processing \nTemporary data \nAccess-controlled services \nSecurity principle:\nCollect → Process → Store → Delete securely"
+      }
+    ]
+  },
+  {
+    "id": "5-2",
+    "number": 2,
+    "section": 5,
+    "question": "Which type of encryption uses a single secret key for both encryption and decryption operations?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Symmetric encryption"
+      },
+      {
+        "id": "1",
+        "text": "Asymmetric encryption"
+      },
+      {
+        "id": "2",
+        "text": "Hashing"
+      },
+      {
+        "id": "3",
+        "text": "Digital certificates"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Симметричное шифрование использует один секретный ключ для шифрования и расшифрования. Примеры: AES и ChaCha20.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          12
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 12,
+        "text": "Symmetric Encryption\nOne key for both operations\nPlaintext\n↓\nEncryption + Secret Key\n↓\nCiphertext\n↓\nDecryption + Same Secret Key\n↓\nPlaintext\nExamples:\nAES \nChaCha20"
+      }
+    ]
+  },
+  {
+    "id": "5-3",
+    "number": 3,
+    "section": 5,
+    "question": "What is the key difference between hashing and encryption?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Encryption is reversible with a key; hashing is designed to be one-way"
+      },
+      {
+        "id": "1",
+        "text": "Hashing always has a decryption key"
+      },
+      {
+        "id": "2",
+        "text": "Encryption never uses keys"
+      },
+      {
+        "id": "3",
+        "text": "Hashing and encryption are identical operations"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Шифрование обратимо с подходящим ключом. Hashing предназначен для одностороннего преобразования.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          14
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 14,
+        "text": "Hashing Is Not Encryption\nHashing\nInput → Hash Function → Fixed-size output\nExample:\npassword\n   ↓\nSHA-256\n   ↓\nhash value\nImportant difference\nEncryption\nReversible with a key \nHashing\nDesigned to be one-way"
+      }
+    ]
+  },
+  {
+    "id": "5-4",
+    "number": 4,
+    "section": 5,
+    "question": "Which of the following represents an insecure data storage practice?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Storing passwords or tokens in plaintext or sensitive data in logs"
+      },
+      {
+        "id": "1",
+        "text": "Encrypting sensitive data with protected keys"
+      },
+      {
+        "id": "2",
+        "text": "Minimizing retained sensitive data"
+      },
+      {
+        "id": "3",
+        "text": "Using app-private storage with access controls"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Открытые пароли, токены, логи с секретами, незащищённые базы и hardcoded keys — примеры небезопасного хранения.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          5,
+          6
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 5,
+        "text": "Insecure Data Storage\nCommon insecure practices\nPlaintext passwords \nPlaintext tokens \nSensitive data in logs \nUnprotected databases \nHardcoded encryption keys \nSensitive information in backups \nExcessive caching \nExample:\npassword = \"MyPassword123\""
+      },
+      {
+        "file": "lecture 6.pptx",
+        "slide": 6,
+        "text": "Example: Insecure Authentication Token Storage\nInsecure approach:\nSharedPreferences\n        ↓\n\"access_token\"\n        ↓\n\"eyJhbGciOi...\"\nProblem:\nToken may be exposed \nToken can provide account access \nNo strong protection for sensitive secrets"
+      }
+    ]
+  },
+  {
+    "id": "5-5",
+    "number": 5,
+    "section": 5,
+    "question": "What is the primary purpose of the Android Keystore system?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Generate, protect, and control the use of cryptographic keys"
+      },
+      {
+        "id": "1",
+        "text": "Provide a public folder for API secrets"
+      },
+      {
+        "id": "2",
+        "text": "Store only user-interface theme preferences"
+      },
+      {
+        "id": "3",
+        "text": "Automatically validate every backend business rule"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Android Keystore позволяет создавать и защищать ключи и ограничивать их использование без обязательной выдачи raw key material приложению.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          16
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 16,
+        "text": "Android Keystore\nPurpose:\nGenerate cryptographic keys \nStore keys securely \nRestrict key usage \nReduce direct key exposure\nKey idea:\nThe application uses the key without necessarily receiving the raw key material."
+      }
+    ]
+  },
+  {
+    "id": "5-6",
+    "number": 6,
+    "section": 5,
+    "question": "What is a Trusted Execution Environment (TEE)?",
+    "options": [
+      {
+        "id": "0",
+        "text": "A protected execution environment isolated from the normal OS for sensitive operations"
+      },
+      {
+        "id": "1",
+        "text": "Any ordinary application background thread"
+      },
+      {
+        "id": "2",
+        "text": "An external shared-storage directory"
+      },
+      {
+        "id": "3",
+        "text": "A public cloud bucket with anonymous access"
+      }
+    ],
+    "correct": "0",
+    "explanation": "TEE изолирует чувствительные операции и ключи от обычной ОС; аппаратная защита уменьшает риск извлечения ключей.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          17
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 17,
+        "text": "Hardware-Backed Security\nModern Android devices may provide:\nTrusted Execution Environment (TEE) \nStrongBox Keymaster \nHardware-backed key protection \nBenefits:\nStronger key isolation \nReduced key extraction risk \nProtection against some device-level attacks"
+      }
+    ]
+  },
+  {
+    "id": "5-7",
+    "number": 7,
+    "section": 5,
+    "question": "Which algorithms fall under Asymmetric Cryptography according?",
+    "options": [
+      {
+        "id": "0",
+        "text": "RSA and Elliptic Curve Cryptography (ECC)"
+      },
+      {
+        "id": "1",
+        "text": "AES and ChaCha20"
+      },
+      {
+        "id": "2",
+        "text": "SHA-256 and SHA-512"
+      },
+      {
+        "id": "3",
+        "text": "Base64 and hexadecimal encoding"
+      }
+    ],
+    "correct": "0",
+    "explanation": "RSA и ECC относятся к асимметричной криптографии с парой связанных ключей. AES/ChaCha20 — симметричные алгоритмы.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          13
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 13,
+        "text": "Asymmetric Cryptography\nTwo related keys\nPublic key\nCan be shared \nUsed for encryption or verification \nPrivate key\nMust remain secret \nUsed for decryption or signing \nExamples:\nRSA \nElliptic Curve Cryptography (ECC)"
+      }
+    ]
+  },
+  {
+    "id": "5-8",
+    "number": 8,
+    "section": 5,
+    "question": "Which statement is true regarding SharedPreferences in Android?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Ordinary SharedPreferences stores simple key-value settings and is not a secure secret store"
+      },
+      {
+        "id": "1",
+        "text": "All SharedPreferences values are always hardware-encrypted automatically"
+      },
+      {
+        "id": "2",
+        "text": "SharedPreferences is designed to publish private keys"
+      },
+      {
+        "id": "3",
+        "text": "SharedPreferences replaces the Android Keystore"
+      }
+    ],
+    "correct": "0",
+    "explanation": "SharedPreferences подходит для языка, темы и настроек. Обычные preferences нельзя считать защищённым хранилищем секретов.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          6,
+          7
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 6,
+        "text": "Example: Insecure Authentication Token Storage\nInsecure approach:\nSharedPreferences\n        ↓\n\"access_token\"\n        ↓\n\"eyJhbGciOi...\"\nProblem:\nToken may be exposed \nToken can provide account access \nNo strong protection for sensitive secrets"
+      },
+      {
+        "file": "lecture 6.pptx",
+        "slide": 7,
+        "text": "SharedPreferences: What Is It?\nUsed for storing:\nSmall amounts of key-value data \nApplication settings \nUser preferences \nSimple configuration values\nExample:\nlanguage = \"English\"\nnotifications = true\ntheme = \"dark\"\nImportant:Do not treat ordinary preferences as a secure secret store."
+      }
+    ]
+  },
+  {
+    "id": "5-9",
+    "number": 9,
+    "section": 5,
+    "question": "What must NEVER be done with cryptographic keys according to secure storage rules?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Hardcode secret keys or store them in plaintext"
+      },
+      {
+        "id": "1",
+        "text": "Generate strong random keys"
+      },
+      {
+        "id": "2",
+        "text": "Restrict keys to their intended use"
+      },
+      {
+        "id": "3",
+        "text": "Rotate compromised keys"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Ключи нельзя вшивать в код или хранить открыто; нужны достаточная стойкость, случайность и защита от извлечения.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          15
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 15,
+        "text": "Cryptographic Keys\nThe key is the real secret\nA cryptographic key should be:\nRandomly generated \nSufficiently strong \nProtected from extraction \nUsed only for its intended purpose \nRotated or replaced when necessary \nNever:\nHardcode secret keys \nStore keys in plaintext \nUse predictable keys \nReuse keys unnecessarily"
+      }
+    ]
+  },
+  {
+    "id": "5-10",
+    "number": 10,
+    "section": 5,
+    "question": "What is the best practice for securing sensitive Data at Rest on a mobile device?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Encrypt sensitive data, use app-private storage, and protect keys with Android Keystore"
+      },
+      {
+        "id": "1",
+        "text": "Store every secret in external storage"
+      },
+      {
+        "id": "2",
+        "text": "Use only a hidden filename without encryption"
+      },
+      {
+        "id": "3",
+        "text": "Hardcode one universal decryption key in the APK"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Безопасное хранение сочетает минимум данных, изоляцию, шифрование и защищённое управление ключами.",
+    "sources": [
+      {
+        "file": "lecture 6.pptx",
+        "slides": [
+          10,
+          18,
+          19
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 6.pptx",
+        "slide": 10,
+        "text": "Data at Rest\nInformation stored on:\nDevice storage \nDatabase \nFiles \nCache \nBackups\nProtection:\nAccess control \nEncryption \nSecure key management \nMinimal data storage\nThreat:An attacker obtains the stored data without interacting with the application normally."
+      },
+      {
+        "file": "lecture 6.pptx",
+        "slide": 18,
+        "text": "Secure Storage Architecture\nExample secure design:\nUser\n  ↓\nAuthentication\n  ↓\nMobile Application\n  ↓\nAndroid Keystore\n  ↓\nEncryption Key\n  ↓\nEncrypted Local Data\nPrinciple:\nSensitive data + secure key management"
+      },
+      {
+        "file": "lecture 6.pptx",
+        "slide": 19,
+        "text": "Secure Storage Best Practices\nDo\nStore only necessary data \nUse application-private storage \nEncrypt sensitive data \nUse Android Keystore for keys \nProtect authentication tokens \nUse secure random values \nRemove sensitive data when no longer needed\nAvoid\nPlaintext passwords \nHardcoded keys \nSensitive data in logs \nUnprotected backups \nPredictable cryptographic values \nCustom encryption algorithms"
+      }
+    ]
+  },
+  {
+    "id": "6-1",
+    "number": 1,
+    "section": 6,
+    "question": "According to the Shared Responsibility Model, what are the core responsibilities of the cloud provider?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Secure physical infrastructure, data centers, hardware, and core cloud services"
+      },
+      {
+        "id": "1",
+        "text": "Implement every customer app access-control rule"
+      },
+      {
+        "id": "2",
+        "text": "Keep customer API keys inside public APKs"
+      },
+      {
+        "id": "3",
+        "text": "Review every line of customer application code automatically"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Провайдер отвечает за физическую инфраструктуру и основные облачные сервисы; владелец приложения — за аккаунты, API, код, данные и конфигурацию.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          4
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 4,
+        "text": "Shared Responsibility Model\nCloud security is a shared responsibility\nCloud provider:\nPhysical infrastructure \nData centers \nHardware \nCore cloud services\nApplication owner:\nUser accounts \nAPIs \nApplication code \nAccess control \nData \nConfiguration\nKey idea:\nUsing the cloud does not automatically make an application secure."
+      }
+    ]
+  },
+  {
+    "id": "6-2",
+    "number": 2,
+    "section": 6,
+    "question": "What is the distinction between Authentication and Authorization in cloud applications?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Authentication verifies identity; authorization checks permitted resources and actions"
+      },
+      {
+        "id": "1",
+        "text": "Authentication only encrypts files; authorization only compresses requests"
+      },
+      {
+        "id": "2",
+        "text": "Authorization is optional after a successful login"
+      },
+      {
+        "id": "3",
+        "text": "Both terms mean choosing a cloud region"
+      }
+    ],
+    "correct": "0",
+    "explanation": "После login и выдачи token каждый API request всё равно нуждается в проверке authorization.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          7
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 7,
+        "text": "Authentication and Authorization in Cloud Apps\nAuthentication\nWho are you?\nAuthorization\nWhat are you allowed to do?\nTypical flow:\nLogin → Authentication → Token → API Request → Authorization\nSecurity controls:\nStrong authentication \nShort-lived tokens \nSecure token storage \nRole-based access control \nLeast privilege \nSession management"
+      }
+    ]
+  },
+  {
+    "id": "6-3",
+    "number": 3,
+    "section": 6,
+    "question": "Which practice is highlighted as a bad security approach regarding secrets and API keys?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Hardcoding sensitive API keys or secrets inside the mobile app"
+      },
+      {
+        "id": "1",
+        "text": "Keeping sensitive secrets on the server"
+      },
+      {
+        "id": "2",
+        "text": "Using short-lived credentials"
+      },
+      {
+        "id": "3",
+        "text": "Applying least privilege and rotating compromised credentials"
+      }
+    ],
+    "correct": "0",
+    "explanation": "APK можно разобрать, а строки — извлечь. Поэтому чувствительные секреты держат на сервере и ограничивают срок и права credentials.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          9
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 9,
+        "text": "Secrets and API Keys\nNever hard-code sensitive secrets\nBad practice:\nAPI_KEY = \"my-secret-key\"\nWhy?\nAPK can be reverse engineered \nStrings can be extracted \nCredentials may be leaked \nKeys can be reused by attackers \nBetter approach:\nKeep secrets on the server \nUse short-lived credentials \nApply least privilege \nRotate compromised credentials"
+      }
+    ]
+  },
+  {
+    "id": "6-4",
+    "number": 4,
+    "section": 6,
+    "question": "What key security feature does Kotlin provide to help reduce null-related errors?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Null safety through nullable types, safe calls, and related language features"
+      },
+      {
+        "id": "1",
+        "text": "Automatic removal of all authorization bugs"
+      },
+      {
+        "id": "2",
+        "text": "A rule that every variable must be null"
+      },
+      {
+        "id": "3",
+        "text": "Disabling type checking at runtime"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Kotlin различает String и String?, поддерживает ?. и ?: и помогает уменьшить ошибки, связанные с null.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          10,
+          11
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 10,
+        "text": "Why Kotlin for Android?\nKotlin\nOfficially supported for Android development \nConcise syntax \nNull-safety \nInteroperability with Java \nCoroutines for asynchronous programming \nStrong tooling in Android Studio\nSecurity advantages:\nReduced null-related errors \nType safety \nModern language features \nEasier maintainability"
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 11,
+        "text": "Kotlin Example: Null Safety\nKotlin helps reduce null-related errors\nvar username: String = \"Aya\"\n\nvar email: String? = null\nNullable value:\nprintln(email?.length)\nSafe call:\nval length = email?.length ?: 0\nKey concept:\nString ≠ String?"
+      }
+    ]
+  },
+  {
+    "id": "6-5",
+    "number": 5,
+    "section": 6,
+    "question": "Which frameworks are commonly used for JavaScript-based cross-platform or hybrid mobile development?",
+    "options": [
+      {
+        "id": "0",
+        "text": "React Native, Ionic, and NativeScript"
+      },
+      {
+        "id": "1",
+        "text": "Django, Flask, and FastAPI"
+      },
+      {
+        "id": "2",
+        "text": "Room, SQLite, and PostgreSQL"
+      },
+      {
+        "id": "3",
+        "text": "JADX, Apktool, and Wireshark"
+      }
+    ],
+    "correct": "0",
+    "explanation": "React Native, Ionic и NativeScript перечислены как примеры JavaScript-подходов к мобильной разработке.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          13
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 13,
+        "text": "JavaScript in Mobile Applications\nJavaScript can be used for mobile development\nCommon approaches:\nWeb-based applications \nHybrid applications \nCross-platform frameworks \nJavaScript + native components \nExamples:\nReact Native \nIonic \nNativeScript\nAdvantages:\nLarge ecosystem \nRapid development \nCode reuse \nCross-platform development"
+      }
+    ]
+  },
+  {
+    "id": "6-6",
+    "number": 6,
+    "section": 6,
+    "question": "What is a primary security principle when dealing with JavaScript in mobile applications?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Do not trust client-side JavaScript; enforce validation and access controls on the server"
+      },
+      {
+        "id": "1",
+        "text": "Put sensitive server secrets into JavaScript bundles"
+      },
+      {
+        "id": "2",
+        "text": "Treat client-side checks as the only authorization control"
+      },
+      {
+        "id": "3",
+        "text": "Ignore third-party dependency vulnerabilities"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Клиентский JavaScript контролируется клиентской средой. Сервер должен сам проверять входные данные и права доступа.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          8,
+          14
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 8,
+        "text": "Secure Mobile-to-Cloud Communication\nCommunication should be protected\nAndroid App↓HTTPS / TLS↓API Gateway / Backend↓Cloud Services\nImportant practices:\nUse HTTPS \nValidate certificates \nProtect API keys \nValidate server-side input \nDo not trust client-side validation \nAvoid sensitive information in URLs/logs"
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 14,
+        "text": "JavaScript Security Risks\nImportant risks\nInsecure third-party packages \nDependency vulnerabilities \nImproper input validation \nInsecure storage \nExposed secrets \nUnsafe WebViews \nCode injection \nInsecure API communication \nSecurity principle:\nDo not trust client-side JavaScript"
+      }
+    ]
+  },
+  {
+    "id": "6-7",
+    "number": 7,
+    "section": 6,
+    "question": "Where is Python most typically applied in the context of mobile application development and security?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Backend services, automation, prototyping, and security tooling around mobile apps"
+      },
+      {
+        "id": "1",
+        "text": "Primarily replacing every Android kernel driver"
+      },
+      {
+        "id": "2",
+        "text": "Only rendering native Android layouts in every production app"
+      },
+      {
+        "id": "3",
+        "text": "Only storing hardware-backed keys directly in CPU registers"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Python чаще полезен вокруг приложения: backend, автоматизация, security tools, обработка данных и прототипирование. Есть Kivy и BeeWare.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          15,
+          16
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 15,
+        "text": "Python for Mobile Development\nPython is not the primary Android language\nPossible uses:\nPrototyping \nAutomation \nBackend development \nSecurity tools \nData processing \nMachine learning \nCross-platform frameworks \nFramework examples:\nKivy \nBeeWare \nImportant:\nPython is often more useful around the mobile application than inside a traditional Android app."
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 16,
+        "text": "Python and Mobile Security\nPython can support security testing\nPossible tasks:\nAPI testing \nLog analysis \nAutomation \nData processing \nVulnerability research \nSecurity monitoring \nMachine learning \nTest generation \nExample workflow:\nAndroid App → API → Python Security Script → Analysis"
+      }
+    ]
+  },
+  {
+    "id": "6-8",
+    "number": 8,
+    "section": 6,
+    "question": "What does the security principle \"Least Privilege\" mean in cloud and mobile architecture?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Grant users, apps, and services only the access needed for their tasks"
+      },
+      {
+        "id": "1",
+        "text": "Give all cloud accounts administrator rights"
+      },
+      {
+        "id": "2",
+        "text": "Disable permissions when TLS is enabled"
+      },
+      {
+        "id": "3",
+        "text": "Reuse the same unrestricted credential everywhere"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Least Privilege применяется и в облаке, и в приложении: минимум необходимых разрешений.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          7,
+          9,
+          19
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 7,
+        "text": "Authentication and Authorization in Cloud Apps\nAuthentication\nWho are you?\nAuthorization\nWhat are you allowed to do?\nTypical flow:\nLogin → Authentication → Token → API Request → Authorization\nSecurity controls:\nStrong authentication \nShort-lived tokens \nSecure token storage \nRole-based access control \nLeast privilege \nSession management"
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 9,
+        "text": "Secrets and API Keys\nNever hard-code sensitive secrets\nBad practice:\nAPI_KEY = \"my-secret-key\"\nWhy?\nAPK can be reverse engineered \nStrings can be extracted \nCredentials may be leaked \nKeys can be reused by attackers \nBetter approach:\nKeep secrets on the server \nUse short-lived credentials \nApply least privilege \nRotate compromised credentials"
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 19,
+        "text": "Secure Coding Checklist\nBefore releasing a mobile application:\nCloud\nSecure APIs \nCorrect cloud configuration \nLeast privilege \nProtected databases \nApplication\nNo hard-coded secrets \nSecure local storage \nInput validation \nSecure authentication\nCommunication\nHTTPS/TLS \nCertificate validation \nSecure token handling \nDevelopment\nUpdated dependencies \nCode review \nSecurity testing \nLogging and monitoring"
+      }
+    ]
+  },
+  {
+    "id": "6-9",
+    "number": 9,
+    "section": 6,
+    "question": "Why is communication between a mobile app and cloud services vulnerable if not properly protected?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Traffic can be intercepted or modified, exposing data and credentials"
+      },
+      {
+        "id": "1",
+        "text": "Cloud connections are always physically isolated from attackers"
+      },
+      {
+        "id": "2",
+        "text": "An API can never receive malicious input"
+      },
+      {
+        "id": "3",
+        "text": "Using a mobile network makes TLS unnecessary"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Незащищённый обмен допускает перехват и изменение. Нужны HTTPS/TLS, проверка сертификатов и безопасная работа с токенами.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          5,
+          8
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 5,
+        "text": "Main Cloud Security Threats\nCommon threats\nMisconfigured cloud storage \nInsecure APIs \nWeak authentication \nExcessive permissions \nExposed credentials \nData leakage \nInsecure communication \nServer-side vulnerabilities \nAccount compromise \nDenial-of-Service attacks"
+      },
+      {
+        "file": "lecture 7.pptx",
+        "slide": 8,
+        "text": "Secure Mobile-to-Cloud Communication\nCommunication should be protected\nAndroid App↓HTTPS / TLS↓API Gateway / Backend↓Cloud Services\nImportant practices:\nUse HTTPS \nValidate certificates \nProtect API keys \nValidate server-side input \nDo not trust client-side validation \nAvoid sensitive information in URLs/logs"
+      }
+    ]
+  },
+  {
+    "id": "6-10",
+    "number": 10,
+    "section": 6,
+    "question": "According to the Secure Coding Checklist, what should be done before releasing a mobile application?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Review code, test security, update dependencies, and verify storage, secrets, APIs, and TLS"
+      },
+      {
+        "id": "1",
+        "text": "Release first and disable logging permanently"
+      },
+      {
+        "id": "2",
+        "text": "Skip certificate validation to avoid connection errors"
+      },
+      {
+        "id": "3",
+        "text": "Move all API secrets into the app for convenience"
+      }
+    ],
+    "correct": "0",
+    "explanation": "Checklist охватывает облако, приложение, связь и процесс разработки: code review, security testing, обновления, мониторинг и проверку защитных мер.",
+    "sources": [
+      {
+        "file": "lecture 7.pptx",
+        "slides": [
+          19
+        ]
+      }
+    ],
+    "note": "",
+    "evidence": [
+      {
+        "file": "lecture 7.pptx",
+        "slide": 19,
+        "text": "Secure Coding Checklist\nBefore releasing a mobile application:\nCloud\nSecure APIs \nCorrect cloud configuration \nLeast privilege \nProtected databases \nApplication\nNo hard-coded secrets \nSecure local storage \nInput validation \nSecure authentication\nCommunication\nHTTPS/TLS \nCertificate validation \nSecure token handling \nDevelopment\nUpdated dependencies \nCode review \nSecurity testing \nLogging and monitoring"
+      }
+    ]
+  }
+]
