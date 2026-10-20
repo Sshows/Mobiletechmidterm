@@ -17,7 +17,7 @@ Open http://127.0.0.1:4173. Deploy `dist/` to any static host. `questions.json` 
 
 - Practice: wrong answers return after two intervening questions, or sooner at the end of the queue. Repeats continue until answered correctly.
 - Exam: no feedback until completion; one submitted answer per question. First-attempt score is distinct from repeat performance.
-- Review past answers, practice mistakes, flip flashcards, filter lectures, search the complete question bank.
+- Review past answers, flip flashcards, filter lectures, search the complete question bank.
 - Choices shuffle on every presentation. The current option order survives reloads.
 - Local browser progress and current session, plus JSON progress export/import. Import restores progress and exam history; it intentionally starts a new session.
 - English original questions and authored options; Russian UI and explanations. Keyboard: 1–4 to answer, Enter to advance, Space to flip.
