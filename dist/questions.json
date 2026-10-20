@@ -39,7 +39,9 @@
         "slide": 2,
         "text": "What is Mobile Security?\nMobile security is the protection of mobile devices, applications, data, and communication from unauthorized access, attacks, and data loss.\nMobile security includes:\nSmartphones and tablets\nMobile operating systems\nMobile applications\nPersonal and corporate data\nWireless communication\nCloud services and APIs\nSimple example\nWhen you use a banking application on your smartphone, mobile security protects:\nYour phone → Your application → Your personal data → Your communication with the bank\nThe main goal is to protect:\nConfidentiality + Integrity + Availability\nThese three principles are known as the CIA Triad."
       }
-    ]
+    ],
+    "mnemonic": "Confidential — «конфиденциально». Представь конверт «только адресату»: чужие не читают.",
+    "lecture": 1
   },
   {
     "id": "1-2",
@@ -87,7 +89,9 @@
         "slide": 6,
         "text": "Common Mobile Attacks\n1. Phishing\nThe attacker sends a fake message or website to steal information.\n\nExample:\n\"Your bank account is blocked. Click here to verify your account.\"\nThe link leads to a fake website.\n2. Malware\nMalicious software can be installed on a mobile device.\nIt may:\nsteal information;\nmonitor activity;\ndisplay unwanted content;\ncommunicate with an attacker."
       }
-    ]
+    ],
+    "mnemonic": "SMS — приманка, человек — цель. Smishing = SMS + phishing: «банк» ловит пользователя на ссылку.",
+    "lecture": 1
   },
   {
     "id": "1-3",
@@ -129,7 +133,9 @@
         "slide": 9,
         "text": "How Do We Prevent Mobile Attacks?\nLayer 1 — User\nStrong passwords\nMulti-factor authentication\nSecurity awareness\nDo not open suspicious links\nLayer 2 — Device\nScreen lock\nEncryption\nSecure boot\nRegular updates\nLayer 3 — Application\nSecure authentication\nInput validation\nSecure data storage\nSecure coding\nMinimum necessary permissions\nLayer 4 — Network\nHTTPS/TLS\nSecure Wi-Fi\nCertificate validation\nNetwork monitoring\nLayer 5 — Backend\nSecure APIs\nAuthentication\nAuthorization\nLogging and monitoring"
       }
-    ]
+    ],
+    "mnemonic": "Device = само устройство. Экранный замок и Secure Boot — как дверь и замок у телефона.",
+    "lecture": 1
   },
   {
     "id": "1-4",
@@ -171,7 +177,9 @@
         "slide": 11,
         "text": "Security Standards and Frameworks\nOWASP — Open Worldwide Application Security Project\nOWASP provides security standards, testing methodologies, and guidance for application security.\nFor mobile security, two important resources are:\nOWASP MASVS\nMobile Application Security Verification Standard\nIt describes security requirements and controls for mobile applications.\nOWASP MASTG\nMobile Application Security Testing Guide\nIt explains how to test mobile applications and verify security controls.\nThese resources will be very important during our practical laboratories"
       }
-    ]
+    ],
+    "mnemonic": "MASVS — список требований: «Что защищать?» MASTG — инструкция проверки: «Как проверить?»",
+    "lecture": 1
   },
   {
     "id": "1-5",
@@ -213,7 +221,9 @@
         "slide": 12,
         "text": "Other Important Guidelines\nNIST\nNational Institute of Standards and Technology\nNIST provides cybersecurity standards and guidelines.\nFor mobile security, an important document is:\nNIST SP 800-124\n\"Guidelines for Managing the Security of Mobile Devices in the Enterprise\"\nIt provides guidance on managing and securing mobile devices in organizations."
       }
-    ]
+    ],
+    "mnemonic": "800-124: представь корпоративный парк телефонов с биркой «124». Это памятка NIST по защите устройств.",
+    "lecture": 1
   },
   {
     "id": "1-6",
@@ -255,7 +265,9 @@
         "slide": 2,
         "text": "Why Is Mobile OS Security Special?\nA smartphone combines:\nComputer + Camera + Microphone + GPS + Sensors + Network + Personal Data\nMobile devices are:\nAlways connected \nHighly personal \nSensor-rich \nResource-constrained \nFrequently used for authentication and payments \nOne compromised application can potentially expose sensitive assets"
       }
-    ]
+    ],
+    "mnemonic": "Смартфон — карманный мультитул: камера, GPS, микрофон, сеть. Больше инструментов — больше входов для угроз.",
+    "lecture": 1
   },
   {
     "id": "1-7",
@@ -297,7 +309,9 @@
         "slide": 9,
         "text": "How Do We Prevent Mobile Attacks?\nLayer 1 — User\nStrong passwords\nMulti-factor authentication\nSecurity awareness\nDo not open suspicious links\nLayer 2 — Device\nScreen lock\nEncryption\nSecure boot\nRegular updates\nLayer 3 — Application\nSecure authentication\nInput validation\nSecure data storage\nSecure coding\nMinimum necessary permissions\nLayer 4 — Network\nHTTPS/TLS\nSecure Wi-Fi\nCertificate validation\nNetwork monitoring\nLayer 5 — Backend\nSecure APIs\nAuthentication\nAuthorization\nLogging and monitoring"
       }
-    ]
+    ],
+    "mnemonic": "Network — дорога между приложением и сервером. TLS и сертификаты охраняют эту дорогу.",
+    "lecture": 1
   },
   {
     "id": "1-9",
@@ -339,7 +353,9 @@
         "slide": 11,
         "text": "Security Standards and Frameworks\nOWASP — Open Worldwide Application Security Project\nOWASP provides security standards, testing methodologies, and guidance for application security.\nFor mobile security, two important resources are:\nOWASP MASVS\nMobile Application Security Verification Standard\nIt describes security requirements and controls for mobile applications.\nOWASP MASTG\nMobile Application Security Testing Guide\nIt explains how to test mobile applications and verify security controls.\nThese resources will be very important during our practical laboratories"
       }
-    ]
+    ],
+    "mnemonic": "Буква T в MASTG напоминает Testing: руководство объясняет, КАК тестировать требования MASVS.",
+    "lecture": 1
   },
   {
     "id": "1-10",
@@ -381,7 +397,9 @@
         "slide": 10,
         "text": "Basic Security Practices\nFor users\n1. Keep the device updated\nInstall security updates and operating system updates.\n2. Use strong authentication\nUse a strong password/PIN and, where appropriate, multi-factor authentication.\n3. Install applications carefully\nUse trusted sources and avoid unknown applications.\n4. Check permissions\nAsk yourself:\n\"Why does this application need this permission?\"\n5. Be careful with links\nDo not open suspicious links or attachments.\n6. Use secure networks\nAvoid sending sensitive information over insecure networks."
       }
-    ]
+    ],
+    "mnemonic": "Обновляй, запирай, проверяй: обновления ОС, сильный вход и приложения из доверенных источников.",
+    "lecture": 1
   },
   {
     "id": "2-1",
@@ -423,7 +441,9 @@
         "slide": 4,
         "text": "Principle of Least Privilege\nGive each component only the privileges it needs.\nExample\nCalculator App:\n✓ CPU / Memory✓ Local application storage✗ Contacts✗ Microphone✗ SMS✗ Location\nLess privilege → Smaller attack surface"
       }
-    ]
+    ],
+    "mnemonic": "Least = минимум, privilege = право. Калькулятору нужен счёт, а не твои контакты.",
+    "lecture": 2
   },
   {
     "id": "2-2",
@@ -465,7 +485,9 @@
         "slide": 5,
         "text": "Defense in Depth\nMobile security uses multiple layers:\nHardware↓Boot↓Kernel↓System Services↓Sandbox↓Permissions↓Application↓Data / Network\nSecurity does not depend on one mechanism.\nDefinition:A security strategy that uses multiple independent or complementary layers of protection so that the failure of one control does not compromise the entire system."
       }
-    ]
+    ],
+    "mnemonic": "Depth — глубина, layers — слои. Замок + сигнализация + охрана: один слой подвёл — остальные сдерживают.",
+    "lecture": 2
   },
   {
     "id": "2-3",
@@ -513,7 +535,9 @@
         "slide": 10,
         "text": "Application Identity\nAndroid associates applications with distinct identities.\nApplication↓UID↓Process↓Files / Resources\nThis supports:\nIsolation \nFile ownership \nAccess control \nProcess separation"
       }
-    ]
+    ],
+    "mnemonic": "Sandbox — песочница с бортиками: у каждого приложения своя территория и свои данные.",
+    "lecture": 2
   },
   {
     "id": "2-4",
@@ -555,7 +579,9 @@
         "slide": 13,
         "text": "Inter-Process Communication (IPC) is a mechanism that allows separate processes or applications to exchange data and request services from each other.\nWhy is IPC needed?\nAndroid applications often run in separate processes for isolation and security, but they still need to communicate.\nExample:App A → IPC request → Android Service → Response → App A\nCommon Android IPC mechanisms\nBinder — primary Android IPC mechanism\nIntents — communication between Android components\nContent Providers — controlled data sharing\nAIDL — defines interfaces for communication with remote services"
       }
-    ]
+    ],
+    "mnemonic": "Binder — «связывающий». Представь курьера, который связывает изолированные процессы Android.",
+    "lecture": 2
   },
   {
     "id": "2-5",
@@ -597,7 +623,9 @@
         "slide": 14,
         "text": "Main Application Components\nActivityUser interface and interaction\nServiceBackground operations\n\nBroadcast ReceiverReceives events\nContent ProviderShares structured data\nSecurity question:\nWho can access this component?"
       }
-    ]
+    ],
+    "mnemonic": "Четвёрка A–S–B–C: Activity, Service, Broadcast Receiver, Content Provider. Fragment остаётся за рамкой.",
+    "lecture": 2
   },
   {
     "id": "2-6",
@@ -639,7 +667,9 @@
         "slide": 21,
         "text": "SELinux\nSecurity-Enhanced Linux\nProvides Mandatory Access Control (MAC).\nSELinux policies can restrict:\nProcesses \nFiles \nSystem resources \nInteractions between components \nPurpose:Enforce security rules even when traditional permissions are not sufficient."
       }
-    ]
+    ],
+    "mnemonic": "SE в SELinux = Security-Enhanced. Представь строгого охранника MAC: правила обязательны для процессов.",
+    "lecture": 2
   },
   {
     "id": "2-7",
@@ -681,7 +711,9 @@
         "slide": 19,
         "text": "Android Keystore\nDesigned to provide protected use of cryptographic keys.\nApplications can use keys for:\nEncryption \nDecryption \nSigning \nAuthentication \nKey principle:\nProtect the key, not only the encrypted data.\nHardware-backed implementations may provide additional protection."
       }
-    ]
+    ],
+    "mnemonic": "Keystore — сейф для ключей. Защищай ключ от сейфа, а не только содержимое за закрытой дверью.",
+    "lecture": 2
   },
   {
     "id": "2-8",
@@ -723,7 +755,9 @@
         "slide": 20,
         "text": "Trusted Execution Environment (TEE)\nA protected environment for security-sensitive operations.\nNormal Environment\nApplications / Android OS\n↕\nTrusted Environment\nSecurity-sensitive operations\nPurpose:\nProtect secrets \nIsolate sensitive operations \nSupport hardware-backed security"
       }
-    ]
+    ],
+    "mnemonic": "Trusted — доверенный. TEE — отдельная охраняемая комната для секретных операций.",
+    "lecture": 2
   },
   {
     "id": "2-9",
@@ -766,7 +800,9 @@
         "slide": 27,
         "text": "From Architecture to Security Testing\nSecurity Area\nTool\nDevice interaction\nADB\nStatic analysis\nMobSF\nDecompiled code\nJADX\nDynamic instrumentation\nFrida\nNetwork traffic\nWireshark\nAPI testing\nBurp Suite\nDevelopment\nAndroid Studio\nTheory → Observation → Analysis → Testing"
       }
-    ]
+    ],
+    "mnemonic": "Static — неподвижный: читаем код, не запуская приложение. Dynamic — наблюдаем работающее.",
+    "lecture": 2
   },
   {
     "id": "2-10",
@@ -814,7 +850,9 @@
         "slide": 17,
         "text": "Root of Trust\nA small, trusted foundation used to establish trust for higher-level components.\nHardware / Immutable Code↓Verified Boot Components↓Operating System↓Applications\nIf trust at the foundation is broken, higher layers may be affected."
       }
-    ]
+    ],
+    "mnemonic": "Boot — запуск, Verified — проверенный. На каждом этапе старта проверяют «пломбу» следующего.",
+    "lecture": 2
   },
   {
     "id": "3-1",
@@ -856,7 +894,9 @@
         "slide": 2,
         "text": "Mobile Threat\nA potential danger to:\nMobile device \nApplication \nUser data \nNetwork \nUser privacy\nWhat Is a Mobile Threat?\nCommon goals\nData theft \nUnauthorized access \nSurveillance \nFraud \nService disruption \nThreat = potential danger\nA threat is something that can potentially cause harm to our system."
       }
-    ]
+    ],
+    "mnemonic": "Threat — угроза, как туча перед дождём: вред возможен, но ещё не обязательно произошёл.",
+    "lecture": 3
   },
   {
     "id": "3-2",
@@ -899,7 +939,9 @@
         "slide": 3,
         "text": "Threat Actor\nThreat Actor\nAn individual or group that performs or supports an attack.\nExamples\nCybercriminal \nAttacker \nInsider \nMalicious developer \nOrganized group\nPossible motivation\nMoney • Data • Access • Espionage • Disruption"
       }
-    ]
+    ],
+    "mnemonic": "Nation-state — государство. Представь разведчика: espionage = шпионаж, цель — интересы государства.",
+    "lecture": 3
   },
   {
     "id": "3-3",
@@ -941,7 +983,9 @@
         "slide": 4,
         "text": "Mobile Attack Surface\nDevice\nBluetooth • USB • Sensors • Storage\n\nApplication\nPermissions • APIs • Local data\n\nNetwork\nWi-Fi • Mobile network • Internet\n\nUser\nLinks • Messages • Social engineering\nAttack Surface = all possible points that can be attacked"
       }
-    ]
+    ],
+    "mnemonic": "Surface — поверхность со всеми дверями и окнами. Это ВСЕ возможные точки входа.",
+    "lecture": 3
   },
   {
     "id": "3-4",
@@ -983,7 +1027,9 @@
         "slide": 5,
         "text": "What Is an Attack Vector?\nAttack Vector\nA path or method used by an attacker to reach a target.\nCommon attack vectors\nMalicious applications \nPhishing \nSocial engineering \nVulnerable APIs \nInsecure networks \nPhysical access \nSoftware vulnerabilities\nSimple model\nAttacker → Attack Vector → Target"
       }
-    ]
+    ],
+    "mnemonic": "Vector — маршрут стрелки к цели. Surface — все входы, vector — выбранный путь атаки.",
+    "lecture": 3
   },
   {
     "id": "3-5",
@@ -1025,7 +1071,9 @@
         "slide": 6,
         "text": "Mobile Malware\nMalware = Malicious Software\nCommon types\nTrojanLooks legitimate but performs malicious actions.\nSpywareCollects information about the user.\nRansomwareBlocks or encrypts data.\nBanking MalwareTargets financial information"
       }
-    ]
+    ],
+    "mnemonic": "Trojan — троянский конь: снаружи подарок, внутри скрытая вредоносная функция.",
+    "lecture": 3
   },
   {
     "id": "3-6",
@@ -1068,7 +1116,9 @@
         "slide": 7,
         "text": "Phishing and Social Engineering\nPhishing\nFake message↓Malicious link↓Fake website↓User enters information↓Information is stolen\nSocial Engineering\nManipulating a person to perform an action\nExamples\nFake bank message \nFake delivery message \nFake support request \nFake login page"
       }
-    ]
+    ],
+    "mnemonic": "Vishing: V как Voice — голос. Smishing: SMS. Услышал звонок — вспоминай vishing.",
+    "lecture": 3
   },
   {
     "id": "3-7",
@@ -1110,7 +1160,9 @@
         "slide": 9,
         "text": "Permissions and Insecure Storage\nAndroid Permissions\nCamera \nMicrophone \nLocation \nContacts \nFiles\nPrinciple of Least Privilege\nGive only the permissions that are necessary.\nInsecure Storage\nSensitive data may include:\nPasswords \nTokens \nPersonal information \nCryptographic keys"
       }
-    ]
+    ],
+    "mnemonic": "Least Privilege: выдай только нужный ключ. Фонарик не должен получать ключ к контактам.",
+    "lecture": 3
   },
   {
     "id": "3-8",
@@ -1152,7 +1204,9 @@
         "slide": 10,
         "text": "Vulnerability, Exploit, Attack\nVulnerability\nA weakness in a system.\n↓\nExploit\nA method used to take advantage of the weakness.\n↓\nAttack\nAn unauthorized action.\n↓\nImpact\nData theft • Account compromise • Privacy loss • Financial loss"
       }
-    ]
+    ],
+    "mnemonic": "Слабый замок → отмычка → взлом → ущерб. Vulnerability → Exploit → Attack → Impact.",
+    "lecture": 3
   },
   {
     "id": "3-9",
@@ -1194,7 +1248,9 @@
         "slide": 12,
         "text": "Mobile Application Security Fundamentals\nSecurity Fundamentals\nConfidentiality\nPrevent unauthorized access to information.\nIntegrity\nPrevent unauthorized modification.\nAvailability\nKeep the application and services accessible.\nAuthentication\nVerify who the user is.\nAuthorization\nDetermine what the user can access."
       }
-    ]
+    ],
+    "mnemonic": "Integrity — целостность. Пломба на банке: содержимое никто не подменил.",
+    "lecture": 4
   },
   {
     "id": "3-10",
@@ -1236,7 +1292,9 @@
         "slide": 12,
         "text": "Mobile Application Security Fundamentals\nSecurity Fundamentals\nConfidentiality\nPrevent unauthorized access to information.\nIntegrity\nPrevent unauthorized modification.\nAvailability\nKeep the application and services accessible.\nAuthentication\nVerify who the user is.\nAuthorization\nDetermine what the user can access."
       }
-    ]
+    ],
+    "mnemonic": "Authentication: паспорт — «кто ты?». Authorization: пропуск — «куда тебе можно?».",
+    "lecture": 4
   },
   {
     "id": "3-11",
@@ -1278,7 +1336,9 @@
         "slide": 13,
         "text": "Security Actors and Agents\nAgent\nAn entity that can perform actions.\nExamples in mobile security\nUser→ opens the application\nApplication→ requests permissions\nServer→ processes requests\nAttacker→ attempts unauthorized actions\nSimple model\nAgent → Action → Resource"
       }
-    ]
+    ],
+    "mnemonic": "Agent — действующее лицо. Пользователь, приложение и сервер могут делать Action над Resource.",
+    "lecture": 4
   },
   {
     "id": "3-12",
@@ -1320,7 +1380,9 @@
         "slide": 14,
         "text": "What Is an Ontology?\nOntology\nA structured representation of knowledge about a specific domain.\nAn ontology describes:\nConcepts \nProperties \nRelationships \nRules\nMobile Security Example\nUser↓ usesApplication↓ requestsPermission↓ protectsResource"
       }
-    ]
+    ],
+    "mnemonic": "Онтология — карта знаний: понятия — точки, отношения — линии, правила — логика карты.",
+    "lecture": 4
   },
   {
     "id": "3-13",
@@ -1362,7 +1424,9 @@
         "slide": 15,
         "text": "Main Ontology Components\nClasses\nGeneral concepts\nUser, Application, Device, Threat\nIndividuals\nSpecific objects\nUser_A, App_01, Android_Device_01\nProperties\nRelationships or characteristics\nuses, requests, targets, hasPermission\nRules\nLogical conditions and relationships\nOntology Components"
       }
-    ]
+    ],
+    "mnemonic": "Individual — конкретный экземпляр. Device — класс, Android_Device_01 — один определённый телефон.",
+    "lecture": 4
   },
   {
     "id": "3-14",
@@ -1404,7 +1468,9 @@
         "slide": 15,
         "text": "Main Ontology Components\nClasses\nGeneral concepts\nUser, Application, Device, Threat\nIndividuals\nSpecific objects\nUser_A, App_01, Android_Device_01\nProperties\nRelationships or characteristics\nuses, requests, targets, hasPermission\nRules\nLogical conditions and relationships\nOntology Components"
       }
-    ]
+    ],
+    "mnemonic": "Property — свойство или связь. В фразе «User uses App» слово uses соединяет два объекта.",
+    "lecture": 4
   },
   {
     "id": "3-15",
@@ -1446,7 +1512,9 @@
         "slide": 18,
         "text": "What Is Protégé?\nProtégé\nAn ontology development tool.\nProtégé allows us to:\nCreate classes \nCreate individuals \nDefine properties \nBuild relationships \nAdd restrictions \nRun reasoners \nVisualize knowledge\nExample classes\nUserApplicationPermissionThreatDevice"
       }
-    ]
+    ],
+    "mnemonic": "Protégé — мастерская онтологий: создаём классы и связи, затем запускаем reasoner.",
+    "lecture": 4
   },
   {
     "id": "3-16",
@@ -1488,7 +1556,9 @@
         "slide": 19,
         "text": "From Ontology to Reasoning\nOntology\nConcepts + Relationships + Rules\n↓\nReasoner\nAnalyzes the knowledge\n↓\nResult\nLogical consistency \nNew relationships \nInferred information\nExample\nSmartphone\n→ has\nAndroid OS\n→ allows\nApplication\n→ requests\nPermission"
       }
-    ]
+    ],
+    "mnemonic": "Reasoner — «рассуждатель»: из известных фактов выводит новые и ищет противоречия.",
+    "lecture": 4
   },
   {
     "id": "3-17",
@@ -1530,7 +1600,9 @@
         "slide": 8,
         "text": "Network and API Attack Vectors\nNetwork Attacks\nUntrusted Wi-Fi \nTraffic interception \nMan-in-the-Middle \n\nAPI\nApplication Programming Interface\nAPI Attacks\nBroken authentication \nBroken authorization \nExcessive data exposure \nInsecure endpoints"
       }
-    ]
+    ],
+    "mnemonic": "API — вход к серверным данным. Broken authorization — сломанный пропуск: чужой ресурс стал доступен.",
+    "lecture": 3
   },
   {
     "id": "3-19",
@@ -1572,7 +1644,9 @@
         "slide": 17,
         "text": "Why Use Ontologies in Security?\nWhy Ontologies?\nThey help us:\nOrganize security knowledge \nDescribe relationships \nConnect different concepts \nDetect logical inconsistencies \nSupport automated reasoning \nReuse security knowledge\nExample\nApplication → requests → Permission\nPermission → provides access to → Resource"
       }
-    ]
+    ],
+    "mnemonic": "Онтология — общая карта безопасности: связывает знания, а reasoner помогает пройти по связям.",
+    "lecture": 4
   },
   {
     "id": "4-1",
@@ -1614,7 +1688,9 @@
         "slide": 2,
         "text": "Authentication vs. Authorization\nAuthentication\nWho are you?\nAuthentication verifies the identity of a user, device, or application.\nExamples:\nPassword \nPIN \nFingerprint \nFace recognition \nOne-time password \nDigital certificate\nAuthorization\nWhat are you allowed to do?\nAuthorization determines which resources or actions an authenticated entity can access.\nAuthentication → Identity\nAuthorization → Permissions"
       }
-    ]
+    ],
+    "mnemonic": "Паспорт проверяет личность — Authentication. Пропуск определяет разрешённые действия — Authorization.",
+    "lecture": 5
   },
   {
     "id": "4-2",
@@ -1656,7 +1732,9 @@
         "slide": 4,
         "text": "Authentication Factors\nAuthentication can use different types of evidence.\n1. Something you know\nPassword \nPIN \nSecurity answer \n2. Something you have\nSmartphone \nSecurity token \nSmart card \n3. Something you are\nFingerprint \nFace \nIris\n4. Somewhere you are\nLocation \nTrusted network \n5. Something you do\nBehavioral patterns \nTyping behavior"
       }
-    ]
+    ],
+    "mnemonic": "Are = «ты есть». Отпечаток — часть тебя; пароль — то, что ты знаешь.",
+    "lecture": 5
   },
   {
     "id": "4-3",
@@ -1698,7 +1776,9 @@
         "slide": 5,
         "text": "Multi-Factor Authentication\n\n\n\n\n\n\n\nMFA combines two or more independent factors.\nExample:\nPassword + Authenticator App\nor\nPassword + Fingerprint\nor\nSecurity Token + PIN\nImportant distinction\nTwo passwords ≠ MFA\nThe factors must belong to different categories.\nSecurity benefit:\nIf one factor is compromised, the attacker still needs another factor."
       }
-    ]
+    ],
+    "mnemonic": "Пароль + PIN — два секрета в одной голове. Для MFA нужны разные корзины факторов.",
+    "lecture": 5
   },
   {
     "id": "4-4",
@@ -1740,7 +1820,9 @@
         "slide": 7,
         "text": "Access Control\nAccess control determines:\nWho can access what?\nUnder which conditions?\nWhich operations are allowed?\nAccess control components\nSubject→ entity requesting access\nObject→ resource being accessed\nAction→ operation performed\nPolicy→ rule determining whether access is allowed\nExample\nUser → Read → Medical Record"
       }
-    ]
+    ],
+    "mnemonic": "Subject — тот, кто действует. Object — то, к чему обращаются: человек → читает → файл.",
+    "lecture": 5
   },
   {
     "id": "4-5",
@@ -1782,7 +1864,9 @@
         "slide": 10,
         "text": "Attribute-Based Access Control\nABAC uses attributes to make decisions.\nPossible attributes:\nUser\nRole \nDepartment \nSecurity level \nDevice\nDevice ID \nOS version \nSecurity status \nResource\nSensitivity \nType \nOwner \nEnvironment\nLocation \nTime \nNetwork\nExample policy:\nAllow access if the user is a doctor, the device is trusted, and the resource belongs to the user's department."
       }
-    ]
+    ],
+    "mnemonic": "A в ABAC — Attributes: кто ты, какое устройство, где и когда. Решение по набору признаков.",
+    "lecture": 5
   },
   {
     "id": "4-6",
@@ -1824,7 +1908,9 @@
         "slide": 9,
         "text": "Role-Based Access Control (RBAC)\nExample\nRoles\nAdministrator \nDeveloper \nUser \nGuest \nPermissions\nRead \nWrite \nDelete \nManage users\nExample:\nAdministrator → Read + Write + Delete\nUser → Read\nGuest → Limited Read\nAdvantages\nSimple management \nEasy to understand \nSuitable for organizations \nLimitation\nRoles may become difficult to manage when conditions become more complex."
       }
-    ]
+    ],
+    "mnemonic": "RBAC — роли как должности. Слишком много исключений — приходится плодить и усложнять роли.",
+    "lecture": 5
   },
   {
     "id": "4-7",
@@ -1866,7 +1952,9 @@
         "slide": 12,
         "text": "What Is a Semantic Reasoner?\nSemantic reasoner\nA software component that derives new knowledge from existing knowledge and logical rules.\nInput:\nOntology \nFacts \nRelationships \nLogical axioms \nOutput:\nInferred knowledge \nConsistency information \nLogical consequences\nExample:\nStudent ⊑ UniversityMember\nAlice : Student\nTherefore:\nAlice : UniversityMember"
       }
-    ]
+    ],
+    "mnemonic": "Reasoner достраивает цепочку: Алиса — студент, студент — член университета, значит Алиса тоже член.",
+    "lecture": 5
   },
   {
     "id": "4-8",
@@ -1908,7 +1996,9 @@
         "slide": 16,
         "text": "Semantic Web\nSemantic Web\nAn extension of the Web where information is represented in a form that machines can interpret and reason about.\n\nKey technologies\nRDF \nRDFS \nOWL \nSPARQL \nOntologies \nReasoners \nBasic idea:\nData + Meaning + Relationships + Logic"
       }
-    ]
+    ],
+    "mnemonic": "RDF описывает факты, RDFS — схему, OWL — онтологию, SPARQL — спрашивает данные.",
+    "lecture": 5
   },
   {
     "id": "4-9",
@@ -1962,7 +2052,9 @@
         "slide": 17,
         "text": "Semantic Web for Mobile Platforms\nPossible applications\n1. Context-aware security\nLocation \nDevice state \nNetwork \n2. Intelligent access control\nUser attributes \nDevice attributes \nResource sensitivity \n3. Security knowledge bases\nThreats \nVulnerabilities \nPermissions \n4. Privacy management\nData categories \nUser preferences \nData-sharing policies"
       }
-    ]
+    ],
+    "mnemonic": "Семантика — смысл и связи. Решение строится по знаниям о пользователе, устройстве и контексте.",
+    "lecture": 5
   },
   {
     "id": "4-10",
@@ -2010,7 +2102,9 @@
         "slide": 19,
         "text": "Term\nMeaning\nAuthentication\nVerification of identity\nAuthorization\nDetermining permitted actions\nAccess Control\nProtection of resources through access policies\nSubject\nEntity requesting access\nObject\nProtected resource\nPermission\nGranted ability to perform an action\nPolicy\nRule that determines access\nRBAC\nRole-Based Access Control\nABAC\nAttribute-Based Access Control\nOntology\nFormal representation of concepts and relationships\nSemantic Web\nWeb technologies that represent machine-readable meaning\nReasoner\nSoftware that derives logical conclusions\nInference\nDeriving new knowledge from existing knowledge\nRDF\nResource Description Framework\nOWL\nWeb Ontology Language\nSPARQL\nQuery language for RDF data\nIndividual\nSpecific instance of a class\nClass\nConcept/category in an ontology\nProperty\nRelationship or attribute\nAxiom\nLogical statement/restriction in an ontology"
       }
-    ]
+    ],
+    "mnemonic": "SPARQL — вопрос к графу RDF. Представь поиск по карте связанных фактов.",
+    "lecture": 5
   },
   {
     "id": "5-1",
@@ -2063,7 +2157,9 @@
         "slide": 6,
         "text": "Protecting Data in the Cloud\nData should be protected throughout its lifecycle\nData at rest\nDatabase \nCloud storage \nBackups \nData in transit\nHTTPS \nTLS \nSecure APIs \nData in use\nApplication processing \nTemporary data \nAccess-controlled services \nSecurity principle:\nCollect → Process → Store → Delete securely"
       }
-    ]
+    ],
+    "mnemonic": "Данные лежат, едут, работают: at rest, in transit, in use.",
+    "lecture": 6
   },
   {
     "id": "5-2",
@@ -2105,7 +2201,9 @@
         "slide": 12,
         "text": "Symmetric Encryption\nOne key for both operations\nPlaintext\n↓\nEncryption + Secret Key\n↓\nCiphertext\n↓\nDecryption + Same Secret Key\n↓\nPlaintext\nExamples:\nAES \nChaCha20"
       }
-    ]
+    ],
+    "mnemonic": "Symmetric — одинаковый ключ с двух сторон: один ключ закрывает и открывает.",
+    "lecture": 6
   },
   {
     "id": "5-3",
@@ -2147,7 +2245,9 @@
         "slide": 14,
         "text": "Hashing Is Not Encryption\nHashing\nInput → Hash Function → Fixed-size output\nExample:\npassword\n   ↓\nSHA-256\n   ↓\nhash value\nImportant difference\nEncryption\nReversible with a key \nHashing\nDesigned to be one-way"
       }
-    ]
+    ],
+    "mnemonic": "Шифрование — замок с ключом назад. Хеш — отпечаток: обратно в исходные данные его не «расшифровать».",
+    "lecture": 6
   },
   {
     "id": "5-4",
@@ -2195,7 +2295,9 @@
         "slide": 6,
         "text": "Example: Insecure Authentication Token Storage\nInsecure approach:\nSharedPreferences\n        ↓\n\"access_token\"\n        ↓\n\"eyJhbGciOi...\"\nProblem:\nToken may be exposed \nToken can provide account access \nNo strong protection for sensitive secrets"
       }
-    ]
+    ],
+    "mnemonic": "Plaintext — открытый текст. Пароль в логе — как код от двери на записке снаружи.",
+    "lecture": 6
   },
   {
     "id": "5-5",
@@ -2237,7 +2339,9 @@
         "slide": 16,
         "text": "Android Keystore\nPurpose:\nGenerate cryptographic keys \nStore keys securely \nRestrict key usage \nReduce direct key exposure\nKey idea:\nThe application uses the key without necessarily receiving the raw key material."
       }
-    ]
+    ],
+    "mnemonic": "Keystore — ключница под охраной: создаёт и защищает ключи, ограничивает их использование.",
+    "lecture": 6
   },
   {
     "id": "5-6",
@@ -2279,7 +2383,9 @@
         "slide": 17,
         "text": "Hardware-Backed Security\nModern Android devices may provide:\nTrusted Execution Environment (TEE) \nStrongBox Keymaster \nHardware-backed key protection \nBenefits:\nStronger key isolation \nReduced key extraction risk \nProtection against some device-level attacks"
       }
-    ]
+    ],
+    "mnemonic": "TEE — защищённая комната внутри устройства, отделённая от обычной среды ОС.",
+    "lecture": 6
   },
   {
     "id": "5-7",
@@ -2321,7 +2427,9 @@
         "slide": 13,
         "text": "Asymmetric Cryptography\nTwo related keys\nPublic key\nCan be shared \nUsed for encryption or verification \nPrivate key\nMust remain secret \nUsed for decryption or signing \nExamples:\nRSA \nElliptic Curve Cryptography (ECC)"
       }
-    ]
+    ],
+    "mnemonic": "RSA и ECC — пара ключей: публичный можно показать, приватный нужно спрятать.",
+    "lecture": 6
   },
   {
     "id": "5-8",
@@ -2369,7 +2477,9 @@
         "slide": 7,
         "text": "SharedPreferences: What Is It?\nUsed for storing:\nSmall amounts of key-value data \nApplication settings \nUser preferences \nSimple configuration values\nExample:\nlanguage = \"English\"\nnotifications = true\ntheme = \"dark\"\nImportant:Do not treat ordinary preferences as a secure secret store."
       }
-    ]
+    ],
+    "mnemonic": "Preferences — предпочтения: язык и тема. Это ящик настроек, а не сейф для секретов.",
+    "lecture": 6
   },
   {
     "id": "5-9",
@@ -2411,7 +2521,9 @@
         "slide": 15,
         "text": "Cryptographic Keys\nThe key is the real secret\nA cryptographic key should be:\nRandomly generated \nSufficiently strong \nProtected from extraction \nUsed only for its intended purpose \nRotated or replaced when necessary \nNever:\nHardcode secret keys \nStore keys in plaintext \nUse predictable keys \nReuse keys unnecessarily"
       }
-    ]
+    ],
+    "mnemonic": "Hardcode — «вшить намертво». Ключ в APK похож на ключ, нарисованный на двери: его найдут.",
+    "lecture": 6
   },
   {
     "id": "5-10",
@@ -2465,7 +2577,9 @@
         "slide": 19,
         "text": "Secure Storage Best Practices\nDo\nStore only necessary data \nUse application-private storage \nEncrypt sensitive data \nUse Android Keystore for keys \nProtect authentication tokens \nUse secure random values \nRemove sensitive data when no longer needed\nAvoid\nPlaintext passwords \nHardcoded keys \nSensitive data in logs \nUnprotected backups \nPredictable cryptographic values \nCustom encryption algorithms"
       }
-    ]
+    ],
+    "mnemonic": "Данные — в закрытый ящик, ключ — в Keystore. Шифрование + private storage + защита ключей.",
+    "lecture": 6
   },
   {
     "id": "6-1",
@@ -2507,7 +2621,9 @@
         "slide": 4,
         "text": "Shared Responsibility Model\nCloud security is a shared responsibility\nCloud provider:\nPhysical infrastructure \nData centers \nHardware \nCore cloud services\nApplication owner:\nUser accounts \nAPIs \nApplication code \nAccess control \nData \nConfiguration\nKey idea:\nUsing the cloud does not automatically make an application secure."
       }
-    ]
+    ],
+    "mnemonic": "Провайдер охраняет «здание»: дата-центр, железо, инфраструктуру. Владелец приложения — свои данные и доступ.",
+    "lecture": 7
   },
   {
     "id": "6-2",
@@ -2549,7 +2665,9 @@
         "slide": 7,
         "text": "Authentication and Authorization in Cloud Apps\nAuthentication\nWho are you?\nAuthorization\nWhat are you allowed to do?\nTypical flow:\nLogin → Authentication → Token → API Request → Authorization\nSecurity controls:\nStrong authentication \nShort-lived tokens \nSecure token storage \nRole-based access control \nLeast privilege \nSession management"
       }
-    ]
+    ],
+    "mnemonic": "Вход по паспорту — Authentication; разрешение на конкретную API-операцию — Authorization.",
+    "lecture": 7
   },
   {
     "id": "6-3",
@@ -2591,7 +2709,9 @@
         "slide": 9,
         "text": "Secrets and API Keys\nNever hard-code sensitive secrets\nBad practice:\nAPI_KEY = \"my-secret-key\"\nWhy?\nAPK can be reverse engineered \nStrings can be extracted \nCredentials may be leaked \nKeys can be reused by attackers \nBetter approach:\nKeep secrets on the server \nUse short-lived credentials \nApply least privilege \nRotate compromised credentials"
       }
-    ]
+    ],
+    "mnemonic": "APK можно разобрать как коробку. Вшитый API secret окажется внутри — чувствительные секреты держим на сервере.",
+    "lecture": 7
   },
   {
     "id": "6-4",
@@ -2639,7 +2759,9 @@
         "slide": 11,
         "text": "Kotlin Example: Null Safety\nKotlin helps reduce null-related errors\nvar username: String = \"Aya\"\n\nvar email: String? = null\nNullable value:\nprintln(email?.length)\nSafe call:\nval length = email?.length ?: 0\nKey concept:\nString ≠ String?"
       }
-    ]
+    ],
+    "mnemonic": "Kotlin ставит вопрос: String? может быть null. ?. проверяет, ?: даёт запасное значение.",
+    "lecture": 7
   },
   {
     "id": "6-5",
@@ -2681,7 +2803,9 @@
         "slide": 13,
         "text": "JavaScript in Mobile Applications\nJavaScript can be used for mobile development\nCommon approaches:\nWeb-based applications \nHybrid applications \nCross-platform frameworks \nJavaScript + native components \nExamples:\nReact Native \nIonic \nNativeScript\nAdvantages:\nLarge ecosystem \nRapid development \nCode reuse \nCross-platform development"
       }
-    ]
+    ],
+    "mnemonic": "React Native, Ionic, NativeScript — три знакомых имени JavaScript в мобильной разработке.",
+    "lecture": 7
   },
   {
     "id": "6-6",
@@ -2729,7 +2853,9 @@
         "slide": 14,
         "text": "JavaScript Security Risks\nImportant risks\nInsecure third-party packages \nDependency vulnerabilities \nImproper input validation \nInsecure storage \nExposed secrets \nUnsafe WebViews \nCode injection \nInsecure API communication \nSecurity principle:\nDo not trust client-side JavaScript"
       }
-    ]
+    ],
+    "mnemonic": "Клиентский JS — слова посетителя, сервер — охрана. Проверяй данные и права на сервере.",
+    "lecture": 7
   },
   {
     "id": "6-7",
@@ -2777,7 +2903,9 @@
         "slide": 16,
         "text": "Python and Mobile Security\nPython can support security testing\nPossible tasks:\nAPI testing \nLog analysis \nAutomation \nData processing \nVulnerability research \nSecurity monitoring \nMachine learning \nTest generation \nExample workflow:\nAndroid App → API → Python Security Script → Analysis"
       }
-    ]
+    ],
+    "mnemonic": "Python чаще «за кулисами»: backend, скрипты, автоматизация и инструменты безопасности.",
+    "lecture": 7
   },
   {
     "id": "6-8",
@@ -2831,7 +2959,9 @@
         "slide": 19,
         "text": "Secure Coding Checklist\nBefore releasing a mobile application:\nCloud\nSecure APIs \nCorrect cloud configuration \nLeast privilege \nProtected databases \nApplication\nNo hard-coded secrets \nSecure local storage \nInput validation \nSecure authentication\nCommunication\nHTTPS/TLS \nCertificate validation \nSecure token handling \nDevelopment\nUpdated dependencies \nCode review \nSecurity testing \nLogging and monitoring"
       }
-    ]
+    ],
+    "mnemonic": "Least Privilege: каждому сервису свой небольшой ключ, а не универсальный ключ администратора.",
+    "lecture": 7
   },
   {
     "id": "6-9",
@@ -2879,7 +3009,9 @@
         "slide": 8,
         "text": "Secure Mobile-to-Cloud Communication\nCommunication should be protected\nAndroid App↓HTTPS / TLS↓API Gateway / Backend↓Cloud Services\nImportant practices:\nUse HTTPS \nValidate certificates \nProtect API keys \nValidate server-side input \nDo not trust client-side validation \nAvoid sensitive information in URLs/logs"
       }
-    ]
+    ],
+    "mnemonic": "Без TLS разговор как открытка: его могут прочитать или изменить по дороге.",
+    "lecture": 7
   },
   {
     "id": "6-10",
@@ -2921,6 +3053,8 @@
         "slide": 19,
         "text": "Secure Coding Checklist\nBefore releasing a mobile application:\nCloud\nSecure APIs \nCorrect cloud configuration \nLeast privilege \nProtected databases \nApplication\nNo hard-coded secrets \nSecure local storage \nInput validation \nSecure authentication\nCommunication\nHTTPS/TLS \nCertificate validation \nSecure token handling \nDevelopment\nUpdated dependencies \nCode review \nSecurity testing \nLogging and monitoring"
       }
-    ]
+    ],
+    "mnemonic": "Перед выпуском — предполётная проверка: код, зависимости, секреты, хранение, API и защищённая связь.",
+    "lecture": 7
   }
 ]
